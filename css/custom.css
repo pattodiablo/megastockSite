@@ -1,0 +1,12 @@
+.fill { 
+    min-height: 100%;
+    height: 100vh;
+}
+.carouselContainer{
+    float: right;
+    width: 100%;
+    height: 80vh;
+}
+.spacer{
+    height: 5%;
+}
