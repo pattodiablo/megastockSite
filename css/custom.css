@@ -1,8 +1,18 @@
+body{
+    opacity: 0;
+    transition: opacity .5s .25s ease-out;
+}
+
+body.is-visible{
+    opacity: 1;
+}
+
 .fill { 
     min-height: 100%;
     height: 100vh;
    
 }
+  
 .carouselContainer{
     float: right;
     width: 100%;
@@ -11,3 +21,21 @@
 .spacer{
     height: 5%;
 }
+
+.productBanner{
+    opacity: 0;
+
+    transition: opacity .5s .25s ease-out;
+    transform: translate(0, 20%);
+    will-change: transform;
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+    opacity .3s .25s ease-out;
+}
+
+
+.productBanner.is-visible{
+    transform: translate(0, 0%);
+    opacity: 1;
+   
+  }
+
