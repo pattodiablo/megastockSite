@@ -22,9 +22,24 @@ body.is-visible{
     height: 5%;
 }
 
+.textoInterior{
+  
+    width: 100%; 
+    padding-left: 40%;
+    padding-top: 50%;
+    color: white;
+    position: relative;
+    z-index: 999;
+  
+    
+}
+
+.right.carousel-control, .left.carousel-control .carousel-control-prev .carousel-control-next{
+    display: none;
+  }
+
 .productBanner{
     opacity: 0;
-
     transition: opacity .5s .25s ease-out;
     transform: translate(0, 20%);
     will-change: transform;

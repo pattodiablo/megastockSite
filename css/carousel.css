@@ -3,30 +3,28 @@
 /* Padding below the footer and lighter body text */
 
 .animatedBanner1{
-
-width: 60%;
-height: 100%;
-position: relative;
-left: -60%;
-animation-name: entrada1;
-animation-duration: 1s;
-animation-delay: 1s;
-animation-iteration-count: 1;
-animation-fill-mode: forwards;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: -50%;
+  animation-name: entrada1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes entrada1 {
-  0%   { left:-60%; }
+  0%   { left:-50%; }
   100% {left:0%; }
 }
 
 .animatedBanner2{
-  padding:1rem;
-  width: 100%;
+  
+ height: 100vh;
   position: relative;
   left: -100%;
-  float: right;
-  
+  top: 50%;
   animation-name: entrada2;
   animation-duration: 1s;
   animation-delay: 1.1s;
@@ -35,20 +33,39 @@ animation-fill-mode: forwards;
 
 }
 
+
+.right.carousel-control, .left.carousel-control .carousel-control-prev .carousel-control-next{
+  display: none;
+}
 @keyframes entrada2 {
   0%   { left:-100%; }
   100% {left:0%; }
 }
 
+
+.carousel-caption {
+  width: 50%;
+  right: 0%;
+  bottom: 0px;
+  left: 35%; /*mover esto para mover imagen a derecha o izquierda segun se requiera */
+  height: 100vh;
+  padding-top: 0%;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  color: #fff;
+  /* text-align: center; */
+}
+
 .innerBannerContainer{
-  width: 60%;
-  height: 60vh;
-  float: right;
-  position: relative;
+  width: 100%;
   overflow: hidden;
   
+ height: 100vh;
+ 
 
 }
+
+
 
 body {
   padding-top: 3rem;
@@ -74,7 +91,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 80vh; /*modificar esto para tamano del item active */
+  height: 100vh; /*modificar esto para tamano del item active */
 }
 .carousel-item > img {
   position: absolute;
