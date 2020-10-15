@@ -16,6 +16,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/custom.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -67,7 +69,7 @@
   
   <div class="carouselContainer" style="background-color: white;"> 
 
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="myCarousel" class="carousel carousel-fade" data-interval="16000" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -76,12 +78,12 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active" >
-          <div class="animatedBanner1" style="background-color: orange;">
+          <div class="animatedBanner1" style="background-color: #ffa401">
           <div class="textoInterior"  >
-            Línea
-            <h1 style="font-family: 'Playfair Display';">Papel Cartón</h1>
+            <p>Línea</p>
+            <h1 style="font-family: 'Playfair Display'; font-size: 45pt;">Papel Cartón</h1>
             <p>Calidad de producción</p>
-            <p><a type="button" style="background-color: white; padding: 0.6rem;" href="#" >+ VER MAS</a></p>
+            <p><a type="button"  style="background-color: white; padding: 0.4rem; padding-left: 2rem; padding-right: 2rem; color: #ffa401; font-size: 11pt;" href="#" >+ VER MAS</a></p>
           </div>
            </div>
           <div class="container">
@@ -89,7 +91,9 @@
             <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner2" >
-                <img style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="images/banner1.jpg" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="images/banner1.jpg" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="images/banner2.jpg" >
+                
             </div>
           </div>
         </div>
