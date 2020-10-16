@@ -2,7 +2,7 @@ body{
     opacity: 0;
     transition: opacity .5s .25s ease-out;
     font-family: 'Lato', sans-serif;
-    font-size: 25pt;
+    font-size: 23pt;
 }
 
 a:hover{
@@ -16,13 +16,14 @@ body.is-visible{
 .fill { 
     min-height: 100%;
     height: 100vh;
+    margin-top: -9rem;
    
 }
   
 .carouselContainer{
     float: right;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 .spacer{
     height: 5%;
@@ -31,14 +32,35 @@ body.is-visible{
 .textoInterior{
   
     width: 100%; 
-    padding-left: 40%;
+    padding-left: 28%;
     padding-top: 50%;
     color: white;
     position: relative;
     z-index: 999;
-  
-    
+    opacity: 0;
+    animation-name: entradaTexto;
+  animation-duration: 2.5s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+      
 }
+
+@keyframes entradaTexto {
+    0%   { 
+        top:2rem;
+    }
+
+    
+    
+    100% {
+        opacity: 100; 
+        top: 0rem;
+       
+        
+    }
+  }
+  
 
 .right.carousel-control, .left.carousel-control .carousel-control-prev .carousel-control-next{
     display: none;
