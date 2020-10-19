@@ -60,6 +60,28 @@
    100% {left:100%; }
  }
 
+.desapareceTexto{
+
+  animation-name: desapareceTween;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width: 100%; 
+  padding-left: 28%;
+  padding-top: 50%;
+  color: white;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+}
+
+@keyframes desapareceTween {
+  0%   { opacity: 100; }
+  100% {opacity:0; }
+}
+
+
 .desaparece{
 
   animation-name: desapareceTween;
@@ -74,6 +96,7 @@
   0%   { opacity: 100; }
   100% {opacity:0; }
 }
+
 
 
 .right.carousel-control, .left.carousel-control .carousel-control-prev .carousel-control-next{
