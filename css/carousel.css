@@ -85,7 +85,7 @@
 .desaparece{
 
   animation-name: desapareceTween;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-delay: 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
