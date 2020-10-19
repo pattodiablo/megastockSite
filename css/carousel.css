@@ -63,7 +63,7 @@
 .desapareceTexto{
 
   animation-name: desapareceTween;
-  animation-duration: 1s;
+  animation-duration: 2.5s;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
