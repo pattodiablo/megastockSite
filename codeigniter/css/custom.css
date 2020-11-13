@@ -1,0 +1,362 @@
+a:hover{
+    text-decoration: none;
+}
+
+a{
+    font-size: 0.9rem;
+}
+.bulletSized{
+    font-size: 0.8rem;
+}
+
+a.jello-horizontal {
+	background-color: white; padding: 0.4rem; padding-left: 2rem; padding-right: 2rem; color: #ffa400; font-size: 11pt;
+	
+}
+
+a:hover.jello-horizontal {
+	
+	-webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+body{
+    opacity: 0;
+    transition: opacity .5s .25s ease-out;
+    font-family: 'Lato', sans-serif;
+    font-size: 23pt;
+}
+
+
+
+body.is-visible{
+    opacity: 1;
+}
+
+.carouselContainer{
+    float: right;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-control-next{
+	
+	position: absolute;
+	left: 48%;
+	top: 85%;
+	bottom: 1rem;
+	height: 10vh;
+	
+}
+
+.carousel-control-next-icon {
+	width: 2rem;
+	height: 2rem;
+  outline: white;
+  background-size: 100%, 100%;
+  background-image: url("../images/next.svg");
+}
+
+.carousel-control-next-icon:after
+{
+  
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100vh;
+    margin-top: -9rem;
+   
+}
+  
+
+input[type=text], input[type=button] {
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+
+
+
+.productBanner{
+    opacity: 0;
+    transition: opacity .5s .25s ease-out;
+    transform: translate(0, 20%);
+    will-change: transform;
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+    opacity .3s .25s ease-out;
+}
+
+
+.productBanner.is-visible{
+    transform: translate(0, 0%);
+    opacity: 1;
+   
+  }
+
+.right.carousel-control, .left.carousel-control .carousel-control-prev .carousel-control-next{
+    display: none;
+  }
+
+.spacer{
+    height: 5%;
+}
+
+.textoInteriorSinAnimacion{
+  
+    width: 100%; 
+    padding-left: 28%;
+    padding-top: 50%;
+    color: white;
+    position: relative;
+    z-index: 999;
+    opacity: 100;
+      
+}
+
+.textoInterior{
+  
+    width: 100%; 
+    padding-left: 18%;
+    padding-top: 50%;
+    color: white;
+    position: relative;
+    z-index: 999;
+    opacity: 0;
+    animation-name: entradaTexto;
+	animation-duration: 2.5s;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+      
+}
+
+.anchoFranja{
+	width: 60%;
+}
+
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes entradaTexto {
+	
+    0%   { 
+        opacity: 0; 
+    }
+   
+    
+    100% {
+        opacity: 100; 
+      
+       
+        
+    }
+  }
+  
+.logoSize{
+	width: 70%;
+	
+}
+
+.tamanoTextoProducto{
+		font-family: 'Playfair Display'; 
+		font-size: 40pt;
+	}
+.tamanoTextoProducto2{
+		
+		font-size: 1.5rem;
+		position: relative; 
+		top: 2rem; 
+		display: inline-block;
+	}
+.tamanoTextoProducto3{
+		
+		font-size: 1.5rem;
+		position: relative; 
+		top: -1rem; 
+		display: inline-block;
+	}
+
+.navegacionHead{
+		position: relative; 
+		z-index: 10; 
+		font-size: 1rem;
+		padding: 3rem;
+	}
+
+.acomodarNav{
+	border: none; 
+	cursor: pointer; 
+	font-size: 1rem; 
+	margin-left: 4rem;
+}
+
+@media screen and (max-width: 960px) {
+
+.logoSize{
+	width: 70%;
+	margin-left: 0%;
+}
+	
+.desapareceTexto{
+
+  animation-name: desapareceTween;
+  animation-duration: 2.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width: 100%; 
+  padding-left: 28%;
+  padding-top: 100%;
+  color: white;
+  position: relative;
+  z-index: 999;
+  opacity: 100;
+	
+}
+	
+.textoInterior{
+
+    width: 100%; 
+	
+	margin-top: 54%;
+    padding-left: 28%;
+    padding-top: 10%;
+    color: white;
+    position: relative;
+    z-index: 999;
+    opacity: 0;
+    animation-name: entradaTexto;
+	animation-duration: 2.5s;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+      
+}
+	
+.tamanoTextoProducto{
+		font-family: 'Playfair Display'; 
+		font-size: 30pt;
+		margin-top: 1rem;
+	}
+
+.tamanoTextoProducto2{
+		
+		font-size: 1.5rem;
+		position: relative; 
+		top: 2.5rem; 
+		display: inline-block;
+	}
+.tamanoTextoProducto3{
+		
+		position: relative; 
+		top: -1rem; 
+	}
+
+.navegacionHead{
+	
+	margin-left: 2rem;
+	margin-right: 1.5rem;
+		top: 2rem;
+		padding-left: 2rem;
+		padding: 0rem;
+	}
+
+	
+.anchoFranja{
+	
+	width: 93.3%;
+	
+	}
+	
+.carousel-control-next{
+	
+	position: absolute;
+	left: 78%;
+	top: 90%;
+	bottom: 1rem;
+	height: 10vh;
+	
+	}
+
+.carousel-control-next-icon {
+	
+		width: 2rem;
+		height: 2rem;
+	    outline: white;
+	    background-size: 100%, 100%;
+	    background-image: url("../images/next.svg");
+	
+		}
+	
+.palabraProductos{
+		color: white;
+	}
+
+	}
+
+@media screen and (max-width: 640px) {
+	
+	.textoInterior{
+  		margin-top: 84%;
+	}
+	.palabraProductos{
+		color: white;
+		margin-right: 30%;
+		position: absolute;
+		display: none;
+		visibility: hidden;
+		
+	}
+	
+	.acomodarNav{
+		
+		border: none; 
+		cursor: pointer; 
+		font-size: 1rem; 
+		position: absolute;
+		left: 50%;
+		
+	}
+	
+	.tamanoTextoProducto{
+		font-family: 'Playfair Display'; 
+		font-size: 25pt;
+		margin-top: 1rem;
+	}
+
+	.tamanoTextoProducto2{
+
+			font-size: 1rem;
+			position: relative; 
+			top: 2.5rem; 
+			display: inline-block;
+		}
+	.tamanoTextoProducto3{
+			font-size: 1rem;
+			position: relative; 
+			top: -1.4rem; 
+		}
+	
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="autoload.php" server="ftp.megaecuador.com" local="132483726792610532" remote="132483669600000000" Dst="0" />
+<file name="config.php" server="ftp.megaecuador.com" local="132483891747768685" remote="132483819600000000" Dst="0" />
+<file name="database.php" server="ftp.megaecuador.com" local="132479382054186824" remote="132483669600000000" Dst="0" />
+<file name="doctypes.php" server="ftp.megaecuador.com" local="132479382054276584" remote="132483669600000000" Dst="0" />
+<file name="foreign_chars.php" server="ftp.megaecuador.com" local="132479382054376311" remote="132483669600000000" Dst="0" />
+<file name="constants.php" server="ftp.megaecuador.com" local="132479382054097062" remote="132483669600000000" Dst="0" />
+<file name="hooks.php" server="ftp.megaecuador.com" local="132479382054476047" remote="132483669600000000" Dst="0" />
+<file name="memcached.php" server="ftp.megaecuador.com" local="132479382054655578" remote="132483669600000000" Dst="0" />
+<file name="index.html" server="ftp.megaecuador.com" local="132479382054555842" remote="132483669600000000" Dst="0" />
+<file name="migration.php" server="ftp.megaecuador.com" local="132479382054755303" remote="132483669600000000" Dst="0" />
+<file name="profiler.php" server="ftp.megaecuador.com" local="132479382054954768" remote="132483669600000000" Dst="0" />
+<file name="mimes.php" server="ftp.megaecuador.com" local="132479382054855040" remote="132483669600000000" Dst="0" />
+<file name="routes.php" server="ftp.megaecuador.com" local="132483772852145704" remote="132483700800000000" Dst="0" />
+<file name="smileys.php" server="ftp.megaecuador.com" local="132479382055144263" remote="132483669600000000" Dst="0" />
+<file name="user_agents.php" server="ftp.megaecuador.com" local="132479382055243995" remote="132483669600000000" Dst="0" />
+</dwsync>
