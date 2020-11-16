@@ -3,7 +3,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="Weveana">
     <meta name="generator" content="Jekyll v4.1.1">
@@ -15,6 +15,8 @@
 	<link href="<?php echo(base_url());?>css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo(base_url());?>css/custom.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
     <style>
@@ -48,21 +50,64 @@
   		<div class="palabraProductos" style="display: inline-block; margin-right: 1rem">Productos  </div> <span class="navbar-toggler-icon"></span>
     </div>
     
-    <div style="position: absolute; top: 0; left: 0;  width: 100%" class="collapse" id="navbarCollapse">
-		
-     <div style="width: 100%; height: 100vh;  background-color: dimgrey ;">
-		  <div class="navbar-toggler text-align-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
-   			 cerrar  <span class="navbar-toggle-icon"></span>
-    	</div>
-		 <ul style="color: white; font-size: 2rem; padding: 2rem; padding-left: 4rem">
-		 			<li>producto 1</li>
-					<li>producto 2</li>
-					<li>producto 3</li>
-					<li>producto 4</li>
-					<li>Contáctenos</li>		
-		 </ul>
-		 
+    <div class= ' collapse menuPosition'  id="navbarCollapse">
+	
+		<div class="row" >				
+			<div class="col-1"></div>
+				<div class="col-10" >
+					
+					<div style="width: 100%; padding-top: 2rem">
+					<a class="navbar-brand" href="#"><img style="width: 12rem" src="<?php echo(base_url());?>images/logo.svg"></a>
+						<div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation" style="width: 3rem; display: inline-block; color: white; border: 0px; float: right; padding-top: 1rem; font-weight: bold">
+							X  <span class="navbar-toggle-icon"></span>
+
+						</div>
+					</div>
+					
+					
+			
+				</div>
+			<div class="col-1"></div>
+				
+			
+
+		</div>
+		<div class="row" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem; ">	
+			
+				<div class="col-1"></div>
+				<div class="col-3">
+					Acerca de Nosotros 
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="">Quiénes Somos</a></li>
+						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="">Visítenos</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Contáctenos</a></li>
+					</ul>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-4">
+					Productos
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="">Línea Papel Cartón</a></li>
+						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="">Línea Chrysal</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Limpieza.png"><a class="linkMenu" href="">Línea Empaque</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Limpieza Higiene</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Seguridad Industrial</a></li>
+					</ul>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1">
+					redes
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><a href=""><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem" ><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+					</ul>
+				</div>
+				<div class="col-1"></div>
+		</div>
 	</div>
+		
+		 
       
       
     </div>
@@ -81,7 +126,7 @@
 
         <div class="carousel-item active" >
 <!-- Colocar desde aqui texto repetido del ultimo banner  -->
-          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden; height: 100vh; background-color:#ffa400;">
+          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;  background-color:#ffa400;">
             <div  style="background-color: #ffa400">
               <div class="desapareceTexto" style="transform: translateY(-15%);"  >
               
@@ -95,7 +140,7 @@
           </div>
 <!-- Colocar hasta aqui texto repetido del ultimo banner  --> 
 
-          <div class="colorBanner anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden;  height: 100vh; background-color:white;">
+          <div class="colorBanner anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden;   background-color:white;">
           <div class="animatedBanner3" style="background-color: #ffa400">
           <div class="textoInterior" style="transform: translateY(-15%);"  >
            
@@ -112,8 +157,8 @@
             <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner2" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/banner1.jpg" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/banner2.jpg" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.png" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_1A.png" >
                 
             </div>
           </div>
@@ -123,7 +168,7 @@
         <div class="carousel-caption" >
           <div class="innerBannerContainer">
             <div class="animatedBanner4" style="visibility: hidden;" >
-              <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/banner3.jpg" >
+              <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
       </div>
     </div>
   </div>
@@ -134,7 +179,7 @@
         
         <div class="carousel-item " >
 <!-- Colocar desde aqui texto repetido del banner anterior -->
-          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;  height: 100vh; background-color:#ffa400;">
+          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;   background-color:#ffa400;">
               <div class="" style="background-color: #ffa400">
                 <div class="desapareceTexto" style="transform: translateY(-15%);"  >
                 
@@ -148,7 +193,7 @@
             </div>
   <!-- Colocar hasta aqui texto repetido del banner anterior -->    
 
-          <div class="anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden; height: 100vh; background-color:transparent;"> <!-- background transparente para dejar ver el texto anterior -->  
+          <div class="anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden; background-color:transparent;"> <!-- background transparente para dejar ver el texto anterior -->  
             <div class="animatedBanner3" style="background-color:#527bbd">
               <div class="textoInterior" style="transform: translateY(-15%);"  >
                 
@@ -169,8 +214,8 @@
                   
                   <div class="animatedBanner2" >
                     
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/banner3.jpg" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/catone.jpg" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_2A.png" >
                 
             </div>
           </div>
@@ -179,7 +224,7 @@
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/banner1.jpg" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.png" >
             </div>
           </div>
         </div>
@@ -213,109 +258,181 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
-    <div class="row productBanner show-on-scroll p-6"> 
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-      <h2 >TExto de entrada al bloque 2</h2>
-
+  <div class="container-fluid marketing">
+	  
+	  <div class="row" style="background-color: #eaeaea">
+	  <div class="col-12">
+		  <div class="row productBanner show-on-scroll p-6 seccion2"> 
+		<div class="col-12">
+		<div class="row" >
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
+				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
+				<p style="color: white; font-size: 1rem;">Es nuestro principio brindarles nuestra mayor confianza y  
+experiencia en cada paso y desición que su empresa requiera.</p>
+				<div style="height: 8rem"></div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+		
+		
+	</div>
 
     </div>
-   
-    <!-- Three columns of text below the carousel -->
-    <div class="row productBanner show-on-scroll">
-      <div class="col-lg-4 ">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+	  
+	  <div class="row productBanner show-on-scroll p-6" style="margin-top: -6.5rem; ">
+	  <div class="col-lg-2"></div>
+		<div class="col-lg-2">
+			<img width="100%" src="<?php echo(base_url());?>images/1.png">
+			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
+			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+			
+		  </div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-2">
+			<img width="100%" src="<?php echo(base_url());?>images/2.png">
+			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
+			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p> 
+			
+		</div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-2">
+			<img width="100%" src="<?php echo(base_url());?>images/3.png">
+			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
+			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p> 
+			
+		</div>
+		<div class="col-lg-2"></div>
+	  </div>
+	  
+	   <div class="row productBanner show-on-scroll p-6" style="padding-bottom: 4rem;" >
+	  <div class="col-lg-2"></div>
+		<div class="col-lg-2">
+			
+			<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+		  </div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-2">
+		
+			<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+		</div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-2">
+			
+			<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+		</div>
+		<div class="col-lg-2"></div>
+	  </div>
+	  
+		  </div>
+	  </div>
+    
+    <div class="row productBanner show-on-scroll p-6 "> 
+		<div class="col-12">
+		<div class="row" >
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div style="height: 3rem"></div>
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Somos el</p>
+				<p style="color: #f37021; font-size: 3.0rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Aliado Estratégico</p>
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: -2rem">de su Compañía</p>
+				<p style=" font-size: 1rem; font-weight: bold;">Es nuestro principio brindarles nuestra mayor confianza y  
+experiencia en cada paso y desición que su empresa requiera.</p>
+				<div style="height: 3rem"></div>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+		
+		
+	</div>
 
-
-    <!-- START THE FEATURETTES -->
-   
-    <hr class="featurette-divider">
-
-    <div class="row featurette show-on-scroll productBanner"  >
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5" >
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
     </div>
-
-
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette show-on-scroll productBanner"  >
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5" >
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-
-    <hr class="featurette-divider">
-
-
-    <div class="row featurette show-on-scroll productBanner"  >
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5" >
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
+	  
+    <div class="row show-on-scroll "> 
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png">
+		</div>
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png">
+		</div>
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png">
+		</div>
+	</div>
+	  <div class="row show-on-scroll"> 
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png">
+		</div>
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png">
+		</div>
+		<div class="col-4 nopadding">
+			<img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png">
+		</div>
+	</div>
+	  
+	  <div class="row show-on-scroll mt-5"> 
+	  <div class="col-5 nopadding">
+			
+		</div>
+		  
+		<div class="col-2 nopadding">
+				<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+		</div>
+		<div class="col-5 nopadding">
+			
+		</div>
+	  </div>
 
   </div><!-- /.container -->
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  <footer class="container-fluid mt-5">
+   
+	  <div class="row" style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
+	  	<div class="col-2"></div>
+		<div class="col-3" >
+			<p>Contácto</p>
+			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
+			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+		</div>
+		
+		<div class="col-3">Menú
+		  <ul style="list-style-type: none; padding-left: 0rem; font-size: 0.8rem; ">
+			<li  class="footerSpace"><a class="footerLink" href="">Home</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Quiénes Somos</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Productos</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Blog</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Contacto</a></li>
+			</ul>
+		  </div>
+		<div class="col-1"></div>
+		<div class="col-2">SOCIAL MEDIA
+		  		<ul style="list-style-type: none; padding-top: 0rem">
+						<li style="margin-top: 0.5rem"><a href=""><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+				</ul>
+		  </div>
+		<div class="col-2"></div> 
+	  </div>
+	 <div class="row" style="border: 1px solid white; "></div> 
+	  <div class="row" style="background-color: #000000">
+	  	<div class="col-4"></div>
+		 <div class="col-4" style="color: white; font-size: 1rem; padding-top: 1rem; padding-bottom: 1rem; text-align: center">© Copyright Megastock 2021</div>
+		  <div class="col-4"></div>
+	  </div>
+	  
   </footer>
 </main>
+	
+	
+	
+	
+	
+	
 <script src="<?php echo(base_url());?>js/jquery.slim.min.js"></script>
 <script>window.jQuery || document.write('<script src="../assets/vendor/js/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo(base_url());?>js/animtaeItems.js"></script>

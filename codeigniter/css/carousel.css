@@ -4,7 +4,7 @@
 
 .animatedBanner2{
   
- height: 100vh;
+  height: 100%;
   position: relative;
   left: -100%;
   top: 60%;
@@ -28,13 +28,14 @@
    position: relative;
    left: -100%;
    top: 0%;
+   overflow: hidden;
    animation-name: entrada3;
    animation-duration: 1s;
    animation-delay: 1s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
    animation-timing-function: ease-in;
-   overflow: hidden;
+  
  
  }
  @keyframes entrada3 {
@@ -44,7 +45,7 @@
 
  .animatedBanner4{
   
-  height: 100vh;
+  height: 100%;
    position: relative;
    left: 0%;
    top: 60%;
@@ -69,8 +70,8 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width: 100%; 
-  padding-left: 18%;
-  padding-top: 50%;
+  padding-left: 20%;
+  padding-top: 40%;
   color: white;
   position: relative;
   z-index: 999;
@@ -111,7 +112,7 @@
   right: 0%;
   bottom: 0px;
   left: 40%; /*mover esto para mover imagen a derecha o izquierda segun se requiera */
-  height: 100vh;
+  
   padding-top: 0%;
   /* padding-top: 20px; */
   /* padding-bottom: 20px; */
@@ -122,11 +123,9 @@
 .innerBannerContainer{
   width: 100%;
   overflow: hidden;
-  
- height: 100vh;
+  height: 100vh;
  
-
-}
+ }
 
 
 
@@ -267,4 +266,27 @@ body {
 
 	}
 	
+}
+
+@media screen and (min-height: 900px) and (orientation: portrait) {
+  
+
+	.animatedBanner2{ /* imagen del banner*/ 
+    max-width: 100%;
+    position: relative;
+    left: -100%;
+    top: 25%;
+    height: 100%;
+   
+  
+  }
+  
+  .animatedBanner4{
+    max-width: 100%;
+     left: 0%;
+     top: 25%;
+  
+  
+   }
+
 }
