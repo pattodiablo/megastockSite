@@ -23,9 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 | 
 */
-  $config['base_url'] = 'http://megaecuador.com/megaecuador.com/web/codeigniter/'; 
-/* $config['base_url'] = 'https://dell.x4/megastockSite/codeigniter/';/*
+/*  $config['base_url'] = 'http://megaecuador.com/megaecuador.com/web/codeigniter/'; */
+/* $config['base_url'] = 'https://dell.x4/megastockSite/codeigniter/'; */
 
+ $config['base_url'] = 'https://www.weveana.com/proyectos/megastockSite/codeigniter/';
 /*
 |--------------------------------------------------------------------------
 | Index File
