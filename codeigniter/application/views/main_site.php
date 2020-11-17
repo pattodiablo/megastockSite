@@ -43,13 +43,45 @@
 	  
  <header>
       
-  <nav class="navbar navbar-light navegacionHead ">
- 
-    <a class="navbar-brand" href="#"><img class="logoSize" src="<?php echo(base_url());?>images/logo.svg"></a>
-    <div class="navbar-toggler acomodarNav" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
-  		<div class="palabraProductos" style="display: inline-block; margin-right: 1rem">Productos  </div> <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-light navegacionHead">
+	  <div class='desktopShow'>
+		<div class="row">
+			 <div class="col-1"></div>
+			 <div class="col-9">
+			 
+			 	<a class="navbar-brand" href="#"><img class="logoSize" src="<?php echo(base_url());?>images/logo.svg"></a>
+				
+				 
+			 </div>
+			 <div class="col-2">
+			 <div class="navbar-toggler acomodarNav" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+					<div class="palabraProductos" style="display: inline-block; margin-right: 1rem">Productos  </div> <span class="navbar-toggler-icon"></span>
+				</div>
+			 </div>
+			 
+			
+		</div>
     </div>
-    
+	  
+	 <div class='mobileShow' >
+		 <div class="row">
+			 <div class="col-1"></div>
+			 <div class="col-9">
+			 
+			 	<a class="navbar-brand" href="#"><img class="logoSize" src="<?php echo(base_url());?>images/logo.svg"></a>
+				
+				 
+			 </div>
+			 <div class="col-2">
+			 <div class="navbar-toggler acomodarNav" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+					<div class="palabraProductos" style="display: inline-block; margin-right: 1rem">Productos  </div> <span class="navbar-toggler-icon"></span>
+				</div>
+			 </div>
+			 
+			
+		</div>
+    </div>
+	  
     <div class= ' collapse menuPosition'  id="navbarCollapse">
 	
 		<div class="row" >				
@@ -72,7 +104,7 @@
 			
 
 		</div>
-		<div class="row" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem; ">	
+		<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem; ">	
 			
 				<div class="col-1"></div>
 				<div class="col-3">
@@ -105,11 +137,39 @@
 				</div>
 				<div class="col-1"></div>
 		</div>
-	</div>
 		
-		 
-      
-      
+		
+		<div class="row mobileShow mb-5" style="color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem; overflow-y: hidden">	
+			<div class="col-1"></div>
+			<div class="col-10">
+			
+				Acerca de Nosotros 
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="">Quiénes Somos</a></li>
+						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="">Visítenos</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Contáctenos</a></li>
+					</ul>
+				
+				Productos
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="">Línea Papel Cartón</a></li>
+						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="">Línea Chrysal</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Limpieza.png"><a class="linkMenu" href="">Línea Empaque</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Limpieza Higiene</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Seguridad Industrial</a></li>
+					</ul>
+				redes
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+						<li style="margin-top: 1rem"><a href=""><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem" ><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+					</ul>
+				
+			</div>
+			<div class="col-1"></div>
+		</div>
+	</div>
+
     </div>
   </nav>
 
@@ -296,9 +356,9 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  <div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; text-align: center; margin-top: 3rem"> 
 			<div class="col-2 col-md-3"></div>
 			<div class="col-8 col-md-6">
-				<img width="70%" src="<?php echo(base_url());?>images/1.png">
-				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
-				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+				<img width="70%" src="<?php echo(base_url());?>images/2.png">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p>
 					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-3"></div>
@@ -309,9 +369,9 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 		  <div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; text-align: center; margin-top: 3rem"> 
 			<div class="col-2 col-md-3"></div>
 			<div class="col-8 col-md-6">
-				<img width="70%" src="<?php echo(base_url());?>images/1.png">
-				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
-				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+				<img width="70%" src="<?php echo(base_url());?>images/3.png">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
 					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-md-3"></div>
@@ -488,7 +548,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 
 
   <!-- FOOTER -->
-  <footer class="container-fluid mt-5">
+  <footer class="container-fluid mt-5 desktopShow">
    
 	  <div class="row" style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
 	  	<div class="col-2"></div>
@@ -525,6 +585,49 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  </div>
 	  
   </footer>
+	
+	
+	<div class="row mobileShow">
+		<footer class="container-fluid mt-5 " style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
+		
+		<div class="row mb-5">
+			<div class="col-1"></div>
+			<div class="col-9" >
+				<p>Contácto</p>
+				<p style="font-size: 0.8rem"><img width="26rem" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
+				<p style="font-size: 0.8rem"><img width="26rem" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+				
+				<p>Menú</p> 
+				<ul style="list-style-type: none; padding-left: 0rem; font-size: 0.8rem; ">
+				
+				<li  class="footerSpace" style="display: inline-block;"><a class="footerLink" href="">Home</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Quiénes Somos</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Productos</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Blog</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Contacto</a></li>
+				</ul>
+				SOCIAL MEDIA
+		  		<ul style="list-style-type: none; padding-top: 0rem">
+						<li style="margin-top: 0.5rem; display: inline-block; margin-left: -2.5rem"><a href=""><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+				</ul>
+				
+			</div>
+			<div class="col-2"></div>
+		</div>
+			
+	  <div class="row" style="border: 1px solid white; "></div> 
+	  <div class="row" style="background-color: #000000">
+	  	<div class="col-4"></div>
+		 <div class="col-4" style="color: white; font-size: 1rem; padding-top: 1rem; padding-bottom: 1rem; text-align: center">© Copyright Megastock 2021</div>
+		  <div class="col-4"></div>
+	  </div>
+	</footer>
+		
+		
+	</div>
+		
 </main>
 	
 	

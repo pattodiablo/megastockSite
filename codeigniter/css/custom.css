@@ -260,6 +260,15 @@ input[type=text], input[type=button] {
 	}
 
 @media screen and (max-width: 993px) {
+	
+	.navegacionHead{
+	
+	margin-left: 2rem;
+	margin-right: 1.5rem;
+		top: 2rem;
+		padding-left: 2rem;
+		padding: 0rem;
+	}
 	.desktopShow{
 		display: none;
 	}
@@ -328,10 +337,10 @@ input[type=text], input[type=button] {
 
 .navegacionHead{
 	
-	margin-left: 2rem;
-	margin-right: 1.5rem;
-		top: 2rem;
-		padding-left: 2rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		top: 0rem;
+		padding-left: 0rem;
 		padding: 0rem;
 	}
 
