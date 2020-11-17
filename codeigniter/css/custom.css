@@ -48,6 +48,7 @@ body{
     transition: opacity .5s .25s ease-out;
     font-family: 'Lato', sans-serif;
     font-size: 23pt;
+	overflow-x: hidden;
 }
 
 
@@ -254,8 +255,17 @@ input[type=text], input[type=button] {
 	margin-left: 4rem;
 }
 
-@media screen and (max-width: 960px) {
+.mobileShow{
+		display: none;
+	}
 
+@media screen and (max-width: 993px) {
+	.desktopShow{
+		display: none;
+	}
+	.mobileShow{
+		display: flex;
+	}
 .logoSize{
 	width: 70%;
 	margin-left: 0%;

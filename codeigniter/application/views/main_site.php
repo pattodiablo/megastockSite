@@ -260,7 +260,75 @@
 
   <div class="container-fluid marketing">
 	  
-	  <div class="row" style="background-color: #eaeaea">
+	  
+	  
+	 
+		  
+	<!--  
+desde aqui seccion para mobile
+--> 
+		<div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; padding-bottom: 3rem"> 
+			
+				<div class="col-12 seccion2" style="text-align: center;">
+					<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
+				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
+				<p style="color: white; font-size: 1rem;">Es nuestro principio brindarles nuestra mayor confianza y  
+experiencia en cada paso y desición que su empresa requiera.</p>
+				<div style="height: 8rem"></div>
+				</div>
+				
+			
+	  	
+	  
+	  	<div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; text-align: center; margin-top: -6rem"> 
+			<div class="col-2 col-md-3"></div>
+			<div class="col-8 col-md-6">
+				<img width="70%" src="<?php echo(base_url());?>images/1.png">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+			</div>
+			<div class="col-2 col-md-3"></div>
+			
+			
+		 </div> 
+	  
+	  <div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; text-align: center; margin-top: 3rem"> 
+			<div class="col-2 col-md-3"></div>
+			<div class="col-8 col-md-6">
+				<img width="70%" src="<?php echo(base_url());?>images/1.png">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+			</div>
+			<div class="col-2 col-3"></div>
+			
+			
+		 </div> 
+			
+		  <div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; text-align: center; margin-top: 3rem"> 
+			<div class="col-2 col-md-3"></div>
+			<div class="col-8 col-md-6">
+				<img width="70%" src="<?php echo(base_url());?>images/1.png">
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+			</div>
+			<div class="col-2 col-md-3"></div>
+			
+			
+		 </div> 
+	  
+	  </div>
+	  
+		  <!--  
+hasta aqui seccion para mobile
+--> 	 
+		  
+<!--  
+desde aqui seccion para desktop
+--> 
+	   <div class="row desktopShow" style="background-color: #eaeaea"> 
 	  <div class="col-12">
 		  <div class="row productBanner show-on-scroll p-6 seccion2"> 
 		<div class="col-12">
@@ -326,6 +394,10 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  </div>
 	  
 		  </div>
+		  
+		  <!--  
+			hasta aqui seccion para desktop
+			--> 
 	  </div>
     
     <div class="row productBanner show-on-scroll p-6 "> 
@@ -335,7 +407,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			<div class="col-lg-4">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Somos el</p>
-				<p style="color: #f37021; font-size: 3.0rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Aliado Estratégico</p>
+				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Aliado Estratégico</p>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: -2rem">de su Compañía</p>
 				<p style=" font-size: 1rem; font-weight: bold;">Es nuestro principio brindarles nuestra mayor confianza y  
 experiencia en cada paso y desición que su empresa requiera.</p>
@@ -348,39 +420,66 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	</div>
 
     </div>
+	  <div class="desktopShow">
+		<div class="row show-on-scroll"> 
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png">
+			</div>
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png">
+			</div>
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png">
+			</div>
+		</div>
+		  <div class="row show-on-scroll"> 
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png">
+			</div>
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png">
+			</div>
+			<div class="col-4 nopadding">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png">
+			</div>
+		</div>
+	  </div>
 	  
-    <div class="row show-on-scroll "> 
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png">
-		</div>
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png">
-		</div>
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png">
-		</div>
-	</div>
-	  <div class="row show-on-scroll"> 
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png">
-		</div>
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png">
-		</div>
-		<div class="col-4 nopadding">
-			<img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png">
-		</div>
-	</div>
+	  
+			
+				<div class="row show-on-scroll mobileShow" style="background-color: aqua">
+					
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png"></div>	
+		   		</div>
+	  
+	  			<div class="row show-on-scroll mobileShow" style="background-color: aqua">
+					
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png"></div>
+		   		</div>
+
+	  			<div class="row show-on-scroll mobileShow" style="background-color: aqua">
+					
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png"></div>	
+							
+		   		</div>
+
+
+		
+			
+	  </div>
 	  
 	  <div class="row show-on-scroll mt-5"> 
-	  <div class="col-5 nopadding">
+	  <div class="col-4 col-md-5 nopadding">
 			
 		</div>
 		  
-		<div class="col-2 nopadding">
+		<div class="col-4 col-md-2 nopadding">
 				<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 		</div>
-		<div class="col-5 nopadding">
+		<div class="col-4 col-md-5 nopadding">
 			
 		</div>
 	  </div>
