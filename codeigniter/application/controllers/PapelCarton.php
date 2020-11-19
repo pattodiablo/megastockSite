@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class PapelCarton extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,9 +21,9 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('pageHead');
-		$this->load->view('navegacionHome');
+		$this->load->view('navegacion');
 		$this->load->view('menu');
-		$this->load->view('main_site');
+		$this->load->view('papelCarton');
 		$this->load->view('footer');
 		$this->load->view('finalScripts');
 	}

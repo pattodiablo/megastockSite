@@ -1,33 +1,77 @@
-
-
-
-</div>
-<div class="footer">
-<div style="background:url(<?php echo(base_url());?>images/footerBackRed.jpg) repeat-x; width:920px; height:116px; margin:auto; font-size: 10pt; color: #FFF; font-family: arial; text-align: center;">
-<table width="100%" height="109" border="0" cellspacing="0" cellpadding="0" >
-  <tr>
-    <td width="71%"  align="left">
-  		
-          	  <blockquote>
-          	    <p>Contáctenos a:</p>
-          	    <p>Teléfonos: (593-2) 6007898 • 092526274 / e-mail: <a href="mailto:ventas@agro-stock.com?subject='Agrostock info" class="mailto">ventas@agro-stock.com</a><br />
-       	        .......................................................................................................................</p>
-          	    <p><a href="<?php echo(site_url());?>/contactos" class='footerLink'>Suscripción al Boletín Informativo</a></p>
-       	    </blockquote>
-        </td>
-    <td width="1%"><img src="<?php echo(base_url());?>images/footerDiv.png" width="9" height="116" /></td>
-    <td width="28%"><img src="<?php echo(base_url());?>images/siguenos.png" width="137" height="74" border="0" usemap="#Map" /></td>
-  </tr>
-</table>
-
-</div>
-<div style="width:311px; height:20px; margin-left:auto; margin-right:auto; margin-top:20px;"><img src="<?php echo(base_url());?>images/copyr.png" width="311" height="12" /></div>
-</div>
-
-<map name="Map" id="Map">
-  <area shape="rect" coords="-15,29,30,60" href="http://www.facebook.com/comercializadora.agrostock" target="_blank" alt="facebook" />
-  <area shape="rect" coords="53,26,89,60" href="http://www.youtube.com/user/chrysalcares?feature=results_main" target="_blank" alt="youtube" />
-  <area shape="rect" coords="109,29,141,59" href=" mailto: ventas@agro-stock.com" target="_blank" alt="writeus" />
-</map>
-</body>
-</html>
+<footer class="container-fluid mt-5 desktopShow">
+   
+	  <div class="row" style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
+	  	<div class="col-2"></div>
+		<div class="col-3" >
+			<p>Contácto</p>
+			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
+			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+		</div>
+		
+		<div class="col-3">Menú
+		  <ul style="list-style-type: none; padding-left: 0rem; font-size: 0.8rem; ">
+			<li  class="footerSpace"><a class="footerLink" href="">Home</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Quiénes Somos</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Productos</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Blog</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="">Contacto</a></li>
+			</ul>
+		  </div>
+		<div class="col-1"></div>
+		<div class="col-2">SOCIAL MEDIA
+		  		<ul style="list-style-type: none; padding-top: 0rem">
+						<li style="margin-top: 0.5rem"><a href=""><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+				</ul>
+		  </div>
+		<div class="col-2"></div> 
+	  </div>
+	 <div class="row" style="border: 1px solid white; "></div> 
+	  <div class="row" style="background-color: #000000">
+	  	<div class="col-4"></div>
+		 <div class="col-4" style="color: white; font-size: 1rem; padding-top: 1rem; padding-bottom: 1rem; text-align: center">© Copyright Megastock 2021</div>
+		  <div class="col-4"></div>
+	  </div>
+	  
+  </footer>
+	
+	
+	<div class="row mobileShow">
+		<footer class="container-fluid mt-5 " style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
+		
+		<div class="row mb-5">
+			<div class="col-1"></div>
+			<div class="col-9" >
+				<p>Contácto</p>
+				<p style="font-size: 0.8rem"><img width="26rem" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
+				<p style="font-size: 0.8rem"><img width="26rem" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+				
+				<p>Menú</p> 
+				<ul style="list-style-type: none; padding-left: 0rem; font-size: 0.8rem; ">
+				
+				<li  class="footerSpace" style="display: inline-block;"><a class="footerLink" href="">Home</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Quiénes Somos</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Productos</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Blog</a></li>
+				<li  class="footerSpace" style="display: inline-block; padding-left: 0.5rem"><a class="footerLink" href="">Contacto</a></li>
+				</ul>
+				SOCIAL MEDIA
+		  		<ul style="list-style-type: none; padding-top: 0rem">
+						<li style="margin-top: 0.5rem; display: inline-block; margin-left: -2.5rem"><a href=""><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+				</ul>
+				
+			</div>
+			<div class="col-2"></div>
+		</div>
+			
+	  <div class="row" style="border: 1px solid white; "></div> 
+	  <div class="row" style="background-color: #000000">
+	  	<div class="col-4"></div>
+		 <div class="col-4" style="color: white; font-size: 1rem; padding-top: 1rem; padding-bottom: 1rem; text-align: center">© Copyright Megastock 2021</div>
+		  <div class="col-4"></div>
+	  </div>
+	</footer>
+  </html>
