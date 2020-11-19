@@ -1,3 +1,5 @@
+
+
 <script src="<?php echo(base_url());?>/js/jquery.slim.min.js"></script>
 <script>window.jQuery || document.write('<script src="../assets/vendor/js/jquery.slim.min.js"><\/script>')</script>
 <script src="<?php echo(base_url());?>/js/bootstrap.bundle.min.js"></script>
@@ -29,5 +31,22 @@ $( document ).ready(function() {
 
 
 });
+	
+
+	
+	
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("loaderContainer").style.display = "none";
+	
+  document.getElementById("myDiv").style.display = "block";
+}
+
 
 </script>

@@ -1,6 +1,11 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<body class="show-on-scroll">
-	  
+
+<body class="show-on-scroll animate-bottom" onload="myFunction()">
+<div id="loaderContainer" style="position: absolute; left: 0px; top: 0px;  width: 100%; height: 100vh">
+	<div id="loader"></div>
+</div>
+
+
  <header>
       
   <nav class="navbar-light navegacionHead" >
@@ -45,7 +50,5 @@
 			
 				</div>
 			<div class="col-1"></div>
-				
-			
 
-		</div>
+	</div>

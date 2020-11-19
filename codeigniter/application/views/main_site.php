@@ -6,7 +6,7 @@
 
 </header>
 
-<main role="main">
+<main role="main" style="display:none;" id="myDiv">
 <div class="fill" >
   
   <div class="carouselContainer" > 
@@ -378,7 +378,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
   </div>
 
 
-</main>
+
 	
 	
 	

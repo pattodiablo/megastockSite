@@ -1,6 +1,8 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
 </header>
+
+<main role="main" style="display:none;" id="myDiv">
 <div class="container-fluid">
 	
 	<div class="row show-on-scroll">
@@ -112,4 +114,9 @@
 	
 	
 </div>
+<div class='row mt-5'>
+
+</div>
+
+
 </body>

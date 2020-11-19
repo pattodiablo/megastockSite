@@ -13,7 +13,7 @@
 				<div class="col-4">
 					Productos
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="index.php/papelCarton">Línea Papel Cartón</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/papelCarton">Línea Papel Cartón</a></li>
 						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="">Línea Chrysal</a></li>
 						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Limpieza.png"><a class="linkMenu" href="">Línea Empaque</a></li>
 						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Limpieza Higiene</a></li>
