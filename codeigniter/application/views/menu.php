@@ -6,7 +6,7 @@
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
 						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
 						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="">Visítenos</a></li>
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Contáctenos</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a></li>
 					</ul>
 				</div>
 				<div class="col-1"></div>
@@ -40,7 +40,7 @@
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
 						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
 						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="">Visítenos</a></li>
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Contáctenos</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a></li>
 					</ul>
 				
 				Productos

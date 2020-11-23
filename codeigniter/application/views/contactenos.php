@@ -25,7 +25,7 @@
 			<div class="col-lg-4"></div>
 	</div>
 	
-	<div class="row show-on-scroll p-6" style="background-color: #eaeaea; padding-top: 2rem; padding-bottom: 2rem;"> 
+	<div class="row show-on-scroll p-6" style="background-color: #eaeaea; padding-top: 7rem; padding-bottom: 7rem;"> 
 	
 		<div class="col-3"></div>
 		<div class="col-3" style="font-size: 1rem;">
@@ -82,10 +82,34 @@
 			</form>
 		</div>
 		<div class="col-1"></div>
-		<div class="col-2" >
-		telefonos
+		<div class="col-3" >
+		<p style="font-size: 1.2rem; text-align: right; font-weight: bold">PBX: (02) 382 9070</p>
+			<div>
+			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: -0.5rem">• QUITO - CUMBAYÁ</p>
+			<p style="font-size: 1rem;  text-align: right; font-weight: bold; ">(593) 99 283 9949</p>
+			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">comercial@megaecuador.com</p>
+			</div>
+			
+			<div>
+			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• TABACUNDO</p>
+			<p style="font-size: 1rem;  text-align: right; font-weight: bold">(593) 99 732 0974</p>
+			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventas@megaecuador.com</p>
+			</div>
+			
+			<div>
+			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• LASSO</p>
+			<p style="font-size: 1rem;  text-align: right; font-weight: bold ">(593) 99 162 1856</p>
+			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventassur@megaecuador.com</p>
+			</div>
+			
+			<div>
+			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• GUAYAQUIL</p>
+			<p style="font-size: 1rem;  text-align: right; font-weight: bold">(593) 99 784 1049</p>
+			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventas3@megaecuador.com</p>
+			</div>
+			
 		</div>
-		<div class="col-3"></div>
+		<div class="col-2"></div>
 		
 	</div>
 		
