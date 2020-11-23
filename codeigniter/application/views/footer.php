@@ -1,4 +1,4 @@
-<footer class="container-fluid mt-5 desktopShow">
+<footer class="container-fluid desktopShow">
    
 	  <div class="row" style="background-color: #323232; padding-top: 4rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
 	  	<div class="col-2"></div>
@@ -10,8 +10,8 @@
 		
 		<div class="col-3">Menú
 		  <ul style="list-style-type: none; padding-left: 0rem; font-size: 0.8rem; ">
-			<li  class="footerSpace"><a class="footerLink" href="">Home</a></li>
-			<li  class="footerSpace"><a class="footerLink" href="">Quiénes Somos</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Home</a></li>
+			<li  class="footerSpace"><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
 			<li  class="footerSpace"><a class="footerLink" href="">Productos</a></li>
 			<li  class="footerSpace"><a class="footerLink" href="">Blog</a></li>
 			<li  class="footerSpace"><a class="footerLink" href="">Contacto</a></li>
