@@ -20,11 +20,83 @@ class Contactenos extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('pageHead');
-		$this->load->view('navegacion');
-		$this->load->view('menu');
-		$this->load->view('contactenos');
-		$this->load->view('footer');
-		$this->load->view('finalScripts');
+		
+		$this->load->helper(array('form', 'url'));
+		$this->load->library('form_validation');
+		
+		$this->form_validation->set_rules('nombre', 'nombre', 'required');
+		$this->form_validation->set_rules('apellido', 'apellido', 'required');
+		$this->form_validation->set_rules('telefono', 'telefono', 'required');
+		$this->form_validation->set_rules('email', 'email', 'required');
+		$this->form_validation->set_rules('email', 'email', 'valid_email');
+		$this->form_validation->set_rules('mensaje', 'mensaje', 'required');
+		
+		
+			if ($this->form_validation->run() == FALSE)
+		{
+			$this->load->view('pageHead');
+			$this->load->view('navegacion');
+			$this->load->view('menu');
+			$this->load->view('contactenos');
+			$this->load->view('footer');
+			$this->load->view('finalScripts');
+		}
+		else
+		{
+		
+			$nombre = $this->input->post('nombre');
+			$apellido = $this->input->post('apellido');
+			$telefono = $this->input->post('telefono');
+			$email = $this->input->post('email');
+			$mensaje = $this->input->post('mensaje');
+
+
+			$this->load->library('email');
+			$config['mailtype'] = 'html';
+			$this->email->initialize($config);
+
+			$this->email->from($email , $nombre);
+			$this->email->to('patricio.leon@weveana.com'); 
+			//$this->email->cc('another@another-example.com'); 
+			//$this->email->bcc('them@their-example.com'); 		
+			$this->email->subject('contactenos Agrostock');
+			$this->email->message(
+
+				"<html>
+				<head>
+				<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+				<title>$nombre</title>
+				</head>
+
+				<body>
+					<p>Nombre: $nombre</p>
+					<p>Nombre: $apellido</p>
+					<p>Telefono: $telefono</p>
+					<p>$email</p>
+					<p>Mensaje:</p>
+					<p>$mensaje</p>
+				</body>
+				</html>"
+
+
+
+			);		
+			$this->email->send();		
+	//	echo $this->email->print_debugger();
+			
+			
+			$this->load->view('pageHead');
+			$this->load->view('navegacion');
+			$this->load->view('menu');
+			$this->load->view('formsuccess');
+			$this->load->view('footer');
+			$this->load->view('finalScripts');
+			
+			
+			
+	
+		}
+		
+		
 	}
 }

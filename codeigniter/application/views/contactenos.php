@@ -28,54 +28,55 @@
 	<div class="row show-on-scroll p-6" style="background-color: #eaeaea; padding-top: 7rem; padding-bottom: 7rem;"> 
 	
 		<div class="col-3"></div>
-		<div class="col-3" style="font-size: 1rem;">
-			 <form>
+		<div class="col-3 formulario" style="font-size: 1rem; color:crimson">
+			<?php echo validation_errors(); ?>
+			<?php echo form_open('contactenos'); ?>
 			  <div class="form-group">
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
-				  	<li style="display:inline-block">Nombre<p style="display: inline-block; color: #f37021">*</p></li>
+				  	<li style="display:inline-block; color: #353535">Nombre<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text;"  aria-describedby="emailHelp">
+						<input  name="nombre"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
 			 <div class="form-group">
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
-				  	<li style="display:inline-block">Apellido<p style="display: inline-block; color: #f37021">*</p></li>
+				  	<li style="display:inline-block;  color: #353535">Apellido<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%; float: right">
-						<input  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text;"  aria-describedby="emailHelp">
+						<input  name="apellido"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
 				 
 			 <div class="form-group">
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
-				  	<li style="display:inline-block">Teléfono<p style="display: inline-block; color: #f37021">*</p></li>
+				  	<li style="display:inline-block;  color: #353535">Teléfono<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text;"  aria-describedby="emailHelp">
+						<input  name="telefono"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
 				 
 			<div class="form-group">
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
-				  	<li style="display:inline-block">Email<p style="display: inline-block; color: #f37021">*</p></li>
+				  	<li style="display:inline-block;  color: #353535">Email<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="email;"  aria-describedby="emailHelp">
+						<input   name="email"  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="email"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			</div>
 			 
 			<div class="form-group">
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
-				  	<li style="display:inline-block">Password<p style="display: inline-block; color: #f37021">*</p></li>
+				  	<li style="display:inline-block;  color: #353535">Mensaje<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
 						
-						<textarea id="w3review" name="w3review" rows="4"  style=" border:1px solid #353535; background-color: #eaeaea; width: 100%"></textarea>
+						<textarea  name="mensaje"  id="mensaje" rows="4"  style=" border:1px solid #353535; background-color: #eaeaea; width: 100%"></textarea>
 					</li>
 				  </ul>
 			</div>
 			<div class="form-group">
-				<button type="submit" style="width: 100%; background-color: #f37021; border: 0; color: white; padding: 0.3rem; margin-top: 1rem">+ ENVIAR EMAIL</button>
+				<button  name="enviar" id="enviar" value="enviar" type="submit" style="width: 100%; background-color: #f37021; border: 0; color: white; padding: 0.3rem; margin-top: 1rem">+ ENVIAR EMAIL</button>
 			 </div>
 			  
 			  
