@@ -16,7 +16,7 @@
 			<div class="col-lg-4" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Línea</p>
-				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -1.5rem">Papel Cartón</p>
+				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.5rem">Papel Cartón</p>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: -1.5rem">Calidad de Producción</p>
 				
 				<div style="height: 3rem"></div>
