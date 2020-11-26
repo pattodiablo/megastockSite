@@ -30,6 +30,15 @@ a:hover.linkMenu{
 	color: #f59530;
 }
 
+a.footerLink{
+	color: white;
+	font-size: 0.8rem;
+}
+
+a:hover.footerLink{
+	color: #f59530;
+}
+
 li a.footerLink{
 color: white;
 	

@@ -20,10 +20,10 @@
 		<div class="col-3" >
 			<div style="padding-left: 2rem" style="background-color: aqua;">
 				<p style="font-size: 0.9rem; font-weight: bold">ACERCA DE NOSOTROS</p>
-				<p style="font-size: 0.8rem">Inicio</p> 
-				<p style="font-size: 0.8rem">Quiénes Somos </p> 
-				<p style="font-size: 0.8rem">Visítenos </p> 
-				<p style="font-size: 0.8rem">Contáctenos </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Quiénes Somos</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Visítenos</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Contáctenos</a> </p> 
 			</div>
 		  </div>
 		
