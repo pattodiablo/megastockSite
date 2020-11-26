@@ -17,8 +17,8 @@
 			<div class="col-lg-4" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
-				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.5rem">Asegura su éxito</p>
-				<p style="color: #353535; font-size: 1.2rem; font-weight: bold; margin-top: 1.3rem">En la actualidad vemos imprescindible acoplarse a las exigencias del sector, pues la calidad, rapidez, confiabilidad, son elementos que van implícitos dentro de cada producto que brindamos.</p>
+				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem">Asegura su éxito</p>
+				<p style="color: #353535; font-size: 1.2rem; margin-top: 1.3rem">En la actualidad vemos imprescindible acoplarse a las exigencias del sector, pues la calidad, rapidez, confiabilidad, son elementos que van implícitos dentro de cada producto que brindamos.</p>
 				
 				<div style="height: 3rem"></div>
 			</div>

@@ -41,21 +41,21 @@
 	  </div>
 	
 	
-     	<div class="row" style="background-color: #323232; padding-top: 2rem; border-top: 1px solid #FFFFFF">
+     	<div class="row" style="background-color: #323232; padding-top: 2rem; padding-bottom: 2rem; border-top: 1px solid #FFFFFF">
 			<div class="col-4"></div>
-			<div class="col-4" style="background-color: yellow">
+			<div class="col-4" style=" text-align: center">
 			
 				<ul style="list-style-type: none">
-					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/FB.png"</li>
-					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Instagram.png"</li>
-					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</li>
+					<li style="display: inline-block; margin-left: -7rem"><img width="30rem" src="<?php echo(base_url());?>images/FB.png"</li>
+					<li style="display: inline-block; padding-left: 5rem"><img width="30rem" src="<?php echo(base_url());?>images/Instagram.png"</li>
+					<li style="display: inline-block; padding-left: 5rem"><img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</li>
 				</ul>
 				
 			</div>
 			<div class="col-4"></div>
 		</div>
 	
-	 <div class="row" style="border: 1px solid white; "></div> 
+	 <div class="row" style="border-top: 1px solid white; "></div> 
 	  <div class="row" style="background-color: #000000">
 	  	<div class="col-4"></div>
 		 <div class="col-4" style="color: white; font-size: 1rem; padding-top: 1rem; padding-bottom: 1rem; text-align: center">© Copyright Megastock 2021</div>
