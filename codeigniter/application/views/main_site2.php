@@ -359,7 +359,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			
 	  </div>
 	  
-	  <div class="row show-on-scroll mt-5"> 
+	  <div class="row show-on-scroll " style="margin-top: 6rem"> 
 	  <div class="col-4 col-md-5 nopadding">
 			
 		</div>
@@ -372,7 +372,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 		</div>
 	  </div>
 	
-	 <div class="row show-on-scroll mt-5"> 
+	 <div class="row show-on-scroll" style="margin-top: 6rem"> 
 
   	</div>
   </div>
