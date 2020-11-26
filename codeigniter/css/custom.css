@@ -333,7 +333,7 @@ input[type=text], input[type=button] {
 .productoDescripcion{
 	border: 1px solid #ff9c39; 
 	padding: 1rem; color: #ff9c39; 
-	font-size: 1rem; 
+	font-size: 1.5rem; 
 	font-weight: bold; 
 	text-align: center
 	
