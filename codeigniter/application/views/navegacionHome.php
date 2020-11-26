@@ -16,7 +16,7 @@
 				 <div class="col-1 col-md-1"></div>
 				 <div class="col-6 col-md-8">
 
-					<a class="navbar-brand" href="#"><img style="width: 13rem; margin-left: -1rem" src="<?php echo(base_url());?>images/logo.svg"></a>
+					<a class="navbar-brand" href="welcome"><img style="width: 13rem; margin-left: -1rem" src="<?php echo(base_url());?>images/logo.svg"></a>
 
 
 				 </div>
@@ -39,7 +39,7 @@
 				<div class="col-10" >
 					
 					<div style="width: 100%; padding-top: 2rem">
-					<a class="navbar-brand" href="#"><img style="width: 12rem" src="<?php echo(base_url());?>images/logo.svg"></a>
+					<a class="navbar-brand" href="welcome"><img style="width: 12rem" src="<?php echo(base_url());?>images/logo.svg"></a>
 						<div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation" style="width: 3rem; display: inline-block; color: white; border: 0px; float: right; padding-top: 1rem; font-weight: bold">
 							X  <span class="navbar-toggle-icon"></span>
 

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Notfound extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,10 +20,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->output->set_status_header('404');
 		$this->load->view('pageHead');
-		$this->load->view('navegacionHome');
+		$this->load->view('navegacion');
 		$this->load->view('menu');
-		$this->load->view('main_site2');
+		$this->load->view('notFound');
 		$this->load->view('footer');
 		$this->load->view('finalScripts');
 	}

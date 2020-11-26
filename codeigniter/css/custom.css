@@ -11,7 +11,7 @@ a{
 
 a.jello-horizontal {
 	background-color: white; padding: 0.4rem; padding-left: 2rem; padding-right: 2rem; color: #ffa400; font-size: 11pt;
-	
+	width: 120%;
 }
 
 a:hover.jello-horizontal {
@@ -141,34 +141,7 @@ input[type=text], input[type=button] {
    margin: 0 !important;
 }
 
-.textoInteriorSinAnimacion{
-  
-    width: 100%; 
-    padding-left: 28%;
-    padding-top: 50%;
-    color: white;
-    position: relative;
-    z-index: 999;
-    opacity: 100;
-      
-}
 
-.textoInterior{
-
-    width: 100%; 
-    padding-left: 20%;
-    padding-top: 40%;
-    color: white;
-    position: relative;
-    z-index: 999;
-    opacity: 0;
-    animation-name: entradaTexto;
-	animation-duration: 2.5s;
-	animation-delay: 1s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-      
-}
 
 .anchoFranja{
 	width: 60%;
@@ -268,6 +241,7 @@ input[type=text], input[type=button] {
 	cursor: pointer; 
 	font-size: 1rem; 
 	margin-left: 4rem;
+	
 }
 
 .acomodarNav2{
@@ -362,13 +336,22 @@ input[type=text], input[type=button] {
 
 @media screen and (max-width: 993px) {
 	
-	.navegacionHead{
 	
-	margin-left: 2rem;
-	margin-right: 1.5rem;
-		top: 2rem;
-		padding-left: 2rem;
-		padding: 0rem;
+	.navbar-brand{
+		padding-top:1rem;
+	}
+
+	
+	.carouselContainer{
+		
+		top: -2rem;
+		
+	}
+	.navegacionHead{
+		
+		position: relative;
+	
+		
 	}
 	.desktopShow{
 		display: none;
@@ -376,47 +359,21 @@ input[type=text], input[type=button] {
 	.mobileShow{
 		display: flex;
 	}
-.logoSize{
-	width: 70%;
-	margin-left: 0%;
-}
+	.logoSize{
+		width: 70%;
+		margin-left: 0%;
+	}
 	
-.desapareceTexto{
 
-  animation-name: desapareceTween;
-  animation-duration: 2.5s;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  width: 100%; 
-  padding-left: 28%;
-  padding-top: 100%;
-  color: white;
-  position: relative;
-  z-index: 999;
-  opacity: 100;
+.acomodarNav{
+	padding-top: 2rem;
 	
-}
-	
-.textoInterior{
-
-    width: 100%; 
-	
-	margin-top: 54%;
-    padding-left: 28%;
-    padding-top: 10%;
-    color: white;
-    position: relative;
-    z-index: 999;
-    opacity: 0;
-    animation-name: entradaTexto;
-	animation-duration: 2.5s;
-	animation-delay: 1s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-      
-}
-	
+	}
+.navbar-brand{
+		position: absolute;
+		margin-top: 1rem;
+		
+	}
 .tamanoTextoProducto{
 		font-family: 'Playfair Display'; 
 		font-size: 30pt;
@@ -473,17 +430,35 @@ input[type=text], input[type=button] {
 		}
 	
 .palabraProductos{
+		
 		color: white;
+		margin-right: 30%;
+		position: absolute;
+		display: none;
+		visibility: hidden;
+		
 	}
 
 	}
 
 @media screen and (max-width: 640px) {
 	
-	.textoInterior{
-  		margin-top: 84%;
+	.navegacionHead{
+		margin-left: 0rem;
+		
+		top: 0rem;
+		 
+		padding: 0rem;
 	}
+	
+	.navbar-toggler-icon{
+		
+		margin-left: -4rem;
+		
+	}
+	
 	.palabraProductos{
+		
 		color: white;
 		margin-right: 30%;
 		position: absolute;

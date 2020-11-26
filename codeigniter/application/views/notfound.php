@@ -8,7 +8,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10" style="margin-top: 6rem; text-align: center" ><img class="img-fluid"  src="<?php echo(base_url());?>images/mailsent.png"></div>
+		<div class="col-md-10" style="margin-top: 6rem; text-align: center" ><img class="img-fluid"  src="<?php echo(base_url());?>images/notFound.png"></div>
 		<div class="col-md-1"></div>
 	</div>
 	

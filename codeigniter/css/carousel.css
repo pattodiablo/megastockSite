@@ -2,12 +2,20 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.innerBannerContainer{
+  width: 90%;
+  overflow: hidden;
+  height: 100vh;
+  margin-left: 2rem;
+ }
+
 .animatedBanner2{
   
   height: 100%;
   position: relative;
   left: -100%;
-  top: 60%;
+  top: 62%;
+  width: 100%;
   animation-name: entrada2;
   animation-duration: 1s;
   animation-delay: 1.1s;
@@ -21,6 +29,28 @@
   0%   { left:-100%; }
   100% {left:0%; }
 }
+
+ .animatedBanner4{
+  
+  height: 100%;
+   position: relative;
+   left: 0%;
+   top: 62%;
+   width: 100%;
+   animation-name: entrada4;
+   animation-duration: 1s;
+   animation-delay: 1.1s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in;
+ 
+ }
+
+ @keyframes entrada4 {
+   0%   { left:0%; }
+   100% {left:100%; }
+ }
+
 
 .animatedBanner3{
   
@@ -43,24 +73,37 @@
    100% {left:0%; }
  }
 
- .animatedBanner4{
+
+.textoInteriorSinAnimacion{
   
-  height: 100%;
-   position: relative;
-   left: 0%;
-   top: 60%;
-   animation-name: entrada4;
-   animation-duration: 1s;
-   animation-delay: 1.1s;
-   animation-iteration-count: 1;
-   animation-fill-mode: forwards;
-   animation-timing-function: ease-in;
- 
- }
- @keyframes entrada4 {
-   0%   { left:0%; }
-   100% {left:100%; }
- }
+    width: 100%; 
+    padding-left: 28%;
+    padding-top: 50%;
+    color: white;
+    position: relative;
+    z-index: 999;
+    opacity: 100;
+      
+}
+
+.textoInterior{
+
+    width: 100%; 
+    padding-left: 20%;
+    
+    color: white;
+    position: absolute;
+	top: 40%;
+    z-index: 999;
+    opacity: 0;
+    animation-name: entradaTexto;
+	animation-duration: 2.5s;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+    -ms-transform: translateY(50%);
+  	transform: translateY(50%);
+}
 
 .desapareceTexto{
 
@@ -71,9 +114,9 @@
   animation-fill-mode: forwards;
   width: 100%; 
   padding-left: 20%;
-  padding-top: 40%;
   color: white;
-  position: relative;
+  position: absolute;
+  top: 42.1%;
   z-index: 999;
   opacity: 100;
 }
@@ -120,12 +163,7 @@
   /* text-align: center; */
 }
 
-.innerBannerContainer{
-  width: 100%;
-  overflow: hidden;
-  height: 100vh;
- 
- }
+
 
 
 
@@ -154,7 +192,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 100vh; /*modificar esto para tamano del item active */
+  height: 95vh; /*modificar esto para tamano del item active */
 	
 }
 .carousel-item > img {
@@ -204,12 +242,20 @@ body {
 -------------------------------------------------- */
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 993px) {
+	
+	
+	.textoInterior{
+	
+		top: 40%;
+		left: -8%;
+      
+	}
 	
 	.desapareceTexto{
-
-	 padding-left: 28%;
-	 padding-top: 74.1%;
+		top: 42%;
+		left: -8%;
+	
 
 	}
 	
@@ -224,8 +270,8 @@ body {
 	.carousel-caption { 
 		/* seccion donde va la imagen y el texto*/ 
 		position: absolute;
-		left: 26%;
-		width: 80%;
+		left: 36%;
+		width: 70%;
 		z-index: 10;
 		
    }
@@ -259,17 +305,56 @@ body {
 	}
 @media screen and (max-width: 640px) {
 	
+.textoInterior{
+	
+		top: 55%;
+		left: 8%;
+      
+	}
+	
 	.desapareceTexto{
-
-	 padding-left: 28%;
-	 padding-top: 108.8%;
+		top: 58%;
+		left: 8%;
+	
 
 	}
+	
+	.carousel-caption { 
+		/* seccion donde va la imagen y el texto*/ 
+		
+		position: absolute;
+		left: 16%;
+		top: -10%;
+		width: 90%;
+		z-index: 10;
+		
+   }
 	
 }
 
 @media screen and (min-height: 900px) and (orientation: portrait) {
   
+	
+	.textoInterior{
+	
+		top: 40%;
+		left: -2%;
+      
+	}
+	
+	.desapareceTexto{
+		top: 40%;
+		left: -2%;
+	
+
+	}
+	
+	.carousel-caption {
+	  width: 70%;
+	  left: 40%; /*mover esto para mover imagen a derecha o izquierda segun se requiera */
+	  top: 25%;
+	  padding-top: 0%;
+}
 
 	.animatedBanner2{ /* imagen del banner*/ 
     max-width: 100%;

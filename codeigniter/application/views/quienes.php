@@ -28,7 +28,7 @@
 	<div class="row show-on-scroll p-6" style="background-color: #ffa400; padding-top: 2rem; padding-bottom: 2rem;"> 
 	
 		<div class="col-1"></div>
-		<div class="col-5"><img  class="img-fluid"  src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png"></div>
+		<div class="col-5"><img  class="img-fluid" style=" top: 50%; padding-bottom: 5rem" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png"></div>
 		<div class="col-1"></div>
 		<div class="col-4" style="color: white; font-size: 1rem; text-align: justify; text-justify: inter-word; padding-top: 5rem"><p>Buscamos constantemente proporcionar valores agregados y extraordinarios a nuestros productos que garanticen un excelente servicio, calidad en lo que ofrecemos, costos competitivos, mejorando cada vez la liquidez para su empresa, y cumpliendo con sus expectativas.</p>
 		<p>
