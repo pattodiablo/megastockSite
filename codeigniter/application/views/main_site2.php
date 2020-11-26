@@ -176,7 +176,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			<div class="col-8 col-md-6">
 				<img width="70%" src="<?php echo(base_url());?>images/1.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
-				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
 					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-md-3"></div>
@@ -189,7 +189,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			<div class="col-8 col-md-6">
 				<img width="70%" src="<?php echo(base_url());?>images/2.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
-				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p>
 					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-3"></div>
@@ -202,7 +202,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			<div class="col-8 col-md-6">
 				<img width="70%" src="<?php echo(base_url());?>images/3.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
-				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
+				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
 					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-md-3"></div>
