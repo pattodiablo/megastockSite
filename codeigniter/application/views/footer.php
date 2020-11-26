@@ -13,8 +13,8 @@
 	  	<div class="col-2"></div>
 		<div class="col-3" >
 			<p style="font-size: 0.9rem; font-weight: bold">CONTACTO</p>
-			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
-			<p style="font-size: 0.8rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+			<p style="font-size: 1rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
+			<p style="font-size: 1rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
 		</div>
 		
 		<div class="col-3" >
