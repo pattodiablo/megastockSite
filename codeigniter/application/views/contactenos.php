@@ -17,8 +17,8 @@
 			<div class="col-lg-4" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Estamos</p>
-				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -1.5rem">para Asesorarle</p>
-				<p style="color: #323232; font-size: 1rem; font-weight: 400; margin-top: 1.3rem">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
+				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.5rem">para Asesorarle</p>
+				<p style="color: #353535; font-size: 1.2rem; font-weight: 400; margin-top: 1.3rem">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
 				
 				<div style="height: 3rem"></div>
 			</div>
@@ -76,7 +76,7 @@
 				  </ul>
 			</div>
 			<div class="form-group">
-				<button  name="enviar" id="enviar" value="enviar" type="submit" style="width: 100%; background-color: #f37021; border: 0; color: white; padding: 0.3rem; margin-top: 1rem">+ ENVIAR EMAIL</button>
+				<button  name="enviar" id="enviar" value="enviar" type="submit" style="width: 100%; background-color: #f37021; border: 0; color: white; padding: 0.3rem; margin-top: 2.5rem">+ ENVIAR EMAIL</button>
 			 </div>
 			  
 			  
