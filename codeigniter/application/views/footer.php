@@ -3,7 +3,7 @@
 	
      	<div class="row" style="background-color: #323232; padding-top: 2rem">
 			<div class="col-5"></div>
-			<div class="col-2"><img src="<?php echo(base_url());?>images/logo.svg"> </div>
+			<div class="col-2"><img width="80%" src="<?php echo(base_url());?>images/logo.svg"> </div>
 			<div class="col-5"></div>
 		</div>
 	

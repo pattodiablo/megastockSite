@@ -38,6 +38,9 @@ a.footerLink{
 a:hover.footerLink{
 	color: #f59530;
 }
+a:visited.footerLink{
+	color: white;
+}
 
 li a.footerLink{
 color: white;
