@@ -349,11 +349,6 @@ input[type=text], input[type=button] {
 @media screen and (max-width: 993px) {
 	
 	
-	.navbar-brand{
-		padding-top:1rem;
-	}
-
-	
 	.carouselContainer{
 		
 		top: -2rem;
@@ -371,6 +366,7 @@ input[type=text], input[type=button] {
 	.mobileShow{
 		display: flex;
 	}
+	
 	.logoSize{
 		width: 70%;
 		margin-left: 0%;
@@ -381,11 +377,7 @@ input[type=text], input[type=button] {
 	padding-top: 2rem;
 	
 	}
-.navbar-brand{
-		position: absolute;
-		margin-top: 1rem;
-		
-	}
+
 .tamanoTextoProducto{
 		font-family: 'Playfair Display'; 
 		font-size: 30pt;

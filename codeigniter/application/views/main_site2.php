@@ -227,7 +227,7 @@ desde aqui seccion para desktop
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
 				<p style="color: white; font-size: 1.2rem;">Es nuestro principio brindarles nuestra mayor confianza y  
 experiencia en cada paso y desición que su empresa requiera.</p>
-				<div style="height: 8rem"></div>
+				<div style="height: 12rem"></div>
 			</div>
 			<div class="col-lg-4"></div>
 		</div>
