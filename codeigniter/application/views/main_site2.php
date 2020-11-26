@@ -228,7 +228,7 @@ desde aqui seccion para desktop
 			<div class="col-lg-4">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 5rem">Calidad que</p>
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
-				<p style="color: white; font-size: 1rem;">Es nuestro principio brindarles nuestra mayor confianza y  
+				<p style="color: white; font-size: 1.5rem;">Es nuestro principio brindarles nuestra mayor confianza y  
 experiencia en cada paso y desición que su empresa requiera.</p>
 				<div style="height: 8rem"></div>
 			</div>
