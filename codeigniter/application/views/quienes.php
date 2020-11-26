@@ -30,11 +30,11 @@
 		
 		<div class="col-7"><img  class="img-fluid" style=" top: 50%; padding-bottom: 5rem" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png"></div>
 		
-		<div class="col-4" style="color: white; font-size: 1.2rem; text-align: justify; text-justify: inter-word; padding-top: 5rem"><p>Buscamos constantemente proporcionar valores agregados y extraordinarios a nuestros productos que garanticen un excelente servicio, calidad en lo que ofrecemos, costos competitivos, mejorando cada vez la liquidez para su empresa, y cumpliendo con sus expectativas. Este es nuestro compromiso hacia ustedes.</p>
+		<div class="col-4" style="color: white; font-size: 1.2rem; text-align: justify; text-justify: inter-word; padding-top: 5rem; vertical-align: middle; line-height: 2rem"><p>Buscamos constantemente proporcionar valores agregados y extraordinarios a nuestros productos que garanticen un excelente servicio, calidad en lo que ofrecemos, costos competitivos, mejorando cada vez la liquidez para su empresa, y cumpliendo con sus expectativas. Este es nuestro compromiso hacia ustedes.</p>
 		<p>
 	
 		</p>
-		<p style="font-size: 1.5rem; font-style: italic; font-weight: bold; text-align: right">
+		<p style="font-size: 2rem; font-style: italic; font-weight: bold; text-align: right;  ">
 		nuestros clientes.	
 		</p>
 		</div>
