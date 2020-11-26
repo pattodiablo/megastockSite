@@ -224,15 +224,15 @@ desde aqui seccion para desktop
 		  <div class="row productBanner show-on-scroll p-6 seccion2"> 
 		<div class="col-12">
 		<div class="row" >
-			<div class="col-lg-3"></div>
-			<div class="col-lg-6" style=" text-align: center">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4" style=" text-align: center">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 5rem">Calidad que</p>
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
 				<p style="color: white; font-size: 1.2rem;">Es nuestro principio brindarles nuestra mayor confianza y  
 experiencia en cada paso y desición que su empresa requiera.</p>
 				<div style="height: 8rem"></div>
 			</div>
-			<div class="col-lg-3"></div>
+			<div class="col-lg-4"></div>
 		</div>
 		
 		
