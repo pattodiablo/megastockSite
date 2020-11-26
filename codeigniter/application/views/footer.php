@@ -1,13 +1,13 @@
 <footer class="container-fluid desktopShow">
 	
 	
-     	<div class="row" style="background-color: #323232; padding-top: 3rem">
+     	<div class="row" style="background-color: #323232; padding-top: 5rem">
 			<div class="col-5"></div>
 			<div class="col-2"><img width="65%" src="<?php echo(base_url());?>images/logo.svg"> </div>
 			<div class="col-5"></div>
 		</div>
 	
-	  <div class="row" style="background-color: #323232; padding-top: 3rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
+	  <div class="row" style="background-color: #323232; padding-top: 5rem; padding-bottom: 4rem; color: white; font-size: 1.3rem">
 		
 	
 	  	<div class="col-2"></div>
@@ -30,11 +30,11 @@
 		<div class="col-3" >
 			<div style="padding-left: 0.5rem">
 				<p style="font-size: 0.9rem; font-weight: bold">PRODUCTOS</p>
-				<p style="font-size: 0.9rem">Línea Papel Cartón</p>
-				<p style="font-size: 0.9rem">Línea Chrysal</p>
-				<p style="font-size: 0.8rem">Línea Empaque</p> 
-				<p style="font-size: 0.8rem">Línea Limpieza Higiene</p> 
-				<p style="font-size: 0.8rem">Línea Seguridad Industrial </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Papel Cartón</a></p>
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Chrysal</a></p>
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Empaque</a></p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Limpieza Higiene</a></p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Seguridad Industrial</a> </p> 
 			</div>
 		  </div>
 		<div class="col-2"></div> 
