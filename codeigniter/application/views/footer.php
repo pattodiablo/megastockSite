@@ -47,8 +47,8 @@
 			
 				<ul style="list-style-type: none">
 					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/FB.png"</li>
-					<li style="display: inline-block padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Instagram.png"</li>
-					<li style="display: inline-block padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</li>
+					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Instagram.png"</li>
+					<li style="display: inline-block; padding-left: 1rem"><img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</li>
 				</ul>
 				
 			</div>
