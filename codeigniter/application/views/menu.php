@@ -1,4 +1,4 @@
-<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem; ">	
+<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem;  ">	
 			
 				<div class="col-1"></div>
 				<div class="col-3">
@@ -20,10 +20,10 @@
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Seguridad Industrial</a></li>
 					</ul>
 				</div>
-				<div class="col-1"></div>
-				<div class="col-1">
-					redes
-					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+				
+				<div class="col-2">
+					
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 5rem">
 						<li style="margin-top: 2rem"><a href=""><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
 						<li style="margin-top: 2rem" ><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
 						<li style="margin-top: 2rem"><a href=""><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>

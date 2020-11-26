@@ -243,9 +243,7 @@ input[type=text], input[type=button] {
 .navegacionHead{
 		position: relative; 
 		z-index: 10; 
-		font-size: 1rem;
-		padding: 3rem;
-		
+		font-size: 1rem;	
 	}
 
 .acomodarNav{
@@ -349,6 +347,11 @@ input[type=text], input[type=button] {
 @media screen and (max-width: 993px) {
 	
 	
+	.navbar-brand{
+		padding-top:1rem;
+	}
+
+	
 	.carouselContainer{
 		
 		top: -2rem;
@@ -366,7 +369,6 @@ input[type=text], input[type=button] {
 	.mobileShow{
 		display: flex;
 	}
-	
 	.logoSize{
 		width: 70%;
 		margin-left: 0%;
@@ -377,7 +379,11 @@ input[type=text], input[type=button] {
 	padding-top: 2rem;
 	
 	}
-
+.navbar-brand{
+		position: absolute;
+		margin-top: 1rem;
+		
+	}
 .tamanoTextoProducto{
 		font-family: 'Playfair Display'; 
 		font-size: 30pt;
@@ -397,14 +403,7 @@ input[type=text], input[type=button] {
 		top: -1rem; 
 	}
 
-.navegacionHead{
-	
-		margin-left: 0rem;
-		margin-right: 0rem;
-		top: 0rem;
-		padding-left: 0rem;
-		padding: 0rem;
-	}
+
 
 	
 .anchoFranja{

@@ -22,7 +22,7 @@
 				 </div>
 				 <div class="col-5 col-md-3">
 				 <div class="navbar-toggler acomodarNav" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
-						<div class="palabraProductos" style="display: inline-block; margin-top: 1rem; ">Productos  </div> <span class="navbar-toggler-icon"></span>
+						<div class="palabraProductos" style="display: inline-block; margin-top: 1rem; ">Productos  </div> <span style="margin-left: 1rem" class="navbar-toggler-icon"></span>
 					</div>
 				 </div>
 
