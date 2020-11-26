@@ -14,7 +14,7 @@
         <div class='col-2' style="text-align: right; margin-left: 0.6rem" >
        
 			<div class="navbar-toggler acomodarNav2" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation" >
-			<div style="display: inline-block; margin-top: 0.8rem;">Productos</div> <span class="navbar-toggler-icon"></span>
+			<div style="display: inline-block; margin-top: 0.8rem;">Productos</div> <span style="margin-left: 1rem" class="navbar-toggler-icon"></span>
 			</div>
 			
 		</div>

@@ -361,7 +361,7 @@ input[type=text], input[type=button] {
 		
 		position: relative;
 	
-		
+		padding-top: 2rem;		
 	}
 	.desktopShow{
 		display: none;
