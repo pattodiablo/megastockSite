@@ -95,12 +95,6 @@ body.is-visible{
 
 
 
-.fill { 
-
-height: 500px;
-    margin-top: -9rem;
-   
-}
   
 
 
@@ -239,7 +233,8 @@ input[type=text], input[type=button] {
 	}
 
 .navegacionHead{
-		position: relative; 
+		position: absolute; 
+		width: 100%;
 		z-index: 10; 
 		font-size: 1rem;	
 	}
@@ -352,14 +347,14 @@ input[type=text], input[type=button] {
 	
 	.carouselContainer{
 		
-		top: -2rem;
+		top: 0rem;
 		
 	}
 	.navegacionHead{
 		
-		position: relative;
+		position: absolute;
 	
-		padding-top: 2rem;		
+				
 	}
 	.desktopShow{
 		display: none;

@@ -17,14 +17,14 @@
 
         <div class="carousel-item active" >
 			<!-- Colocar desde aqui texto repetido del ultimo banner  -->
-					  <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;  background-color:#ffa400;">
+					  <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;  background-color:#9163a6;">
 						<div  style="background-color: #ffa400">
 						  <div class="desapareceTexto" style="transform: translateY(-15%);"  >
 
 							  <p class="tamanoTextoProducto2" >Línea</p>
-							  <h1 class="tamanoTextoProducto" >Chrysal</h1>
-							  <p class="tamanoTextoProducto3" >Distribuidor en Ecuador</p>
-							  <p class="margenBoton"><a class="jello-horizontal" href="#" style="color: white" >+ VER MAS</a></p>
+							  <h1 class="tamanoTextoProducto" >Seguridad Industrial</h1>
+							  <p class="tamanoTextoProducto3" >Prevención de Riesgos</p>
+							  <p class="margenBoton"><a id="firstBoton" class="jello-horizontal" href="#" style="color:#9163a6" >+ VER MAS</a></p>
 
 						  </div>
 						</div>
@@ -38,7 +38,7 @@
 								  <p class="tamanoTextoProducto2" >Línea</p>
 								  <h1  class="tamanoTextoProducto">Papel Cartón</h1>
 								  <p class="tamanoTextoProducto3" >Calidad de Producción</p>
-								  <p class="margenBoton"><a class="jello-horizontal"   href="#" >+ VER MAS</a></p>
+								  <p class="margenBoton"><a class="jello-horizontal"   >+ VER MAS</a></p>
 
 					  </div>
 					   </div>
@@ -59,7 +59,7 @@
 					<div class="carousel-caption" >
 					  <div class="innerBannerContainer">
 						<div class="animatedBanner4" style="visibility: hidden;" >
-						  <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
+						  <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.png" >
 				  </div>
 				</div>
 			  </div>
@@ -68,7 +68,7 @@
 					  </div>
         </div>
         
-        <div class="carousel-item " >
+		<div class="carousel-item " >
 <!-- Colocar desde aqui texto repetido del banner anterior -->
           <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;   background-color:#ffa400;">
               <div class="" style="background-color: #ffa400">
@@ -77,7 +77,7 @@
                     <p class="tamanoTextoProducto2">Línea</p>
                     <h1 class="tamanoTextoProducto">Papel Cartón</h1>
                     <p class="tamanoTextoProducto3">Calidad de Producción</p>
-                    <p class="margenBoton"><a class="jello-horizontal" href="#"  >+ VER MAS</a></p>
+                    <p class="margenBoton"><a class="jello-horizontal" style="color: #ffa400" href="#"  >+ VER MAS</a></p>
             
                 </div>
               </div>
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
- <!-- Colocar desde aqui imagen repetida del primer banner -->  
+ <!-- Colocar desde aqui imagen repetida del anterior banner -->  
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
@@ -119,13 +119,179 @@
             </div>
           </div>
         </div>
+<!-- Colocar hasta aqui imagen repetida del anterior banner -->        
+          </div>
+        </div>
+		  
+        <div class="carousel-item " >
+<!-- Colocar desde aqui texto repetido del banner anterior -->
+          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;   background-color:#527bbd;">
+              <div class="" style="background-color: #ffa400">
+                <div class="desapareceTexto" style="transform: translateY(-15%);"  >
+                
+                     <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Chrysal</h1>
+                <p class="tamanoTextoProducto3">Distribuidor en Ecuador</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #527bbd" >+ VER MAS</a></p>
+            
+                </div>
+              </div>
+            </div>
+  <!-- Colocar hasta aqui texto repetido del banner anterior -->    
+
+          <div class="anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden; background-color:transparent;"> <!-- background transparente para dejar ver el texto anterior -->  
+            <div class="animatedBanner3" style="background-color:#808285">
+              <div class="textoInterior" style="transform: translateY(-15%);"  >
+                
+                <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Empaque</h1>
+                <p class="tamanoTextoProducto3">Importadores Directos</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #808285" >+ VER MAS</a></p>
+                
+              </div>
+               </div>
+          </div>
+          
+          
+          <div class="container">
+                      
+            <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  
+                  <div class="animatedBanner2" >
+                    
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.png" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_3A.png" >
+                
+            </div>
+          </div>
+        </div>
+ <!-- Colocar desde aqui imagen repetida del primer banner -->  
+         <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  <div class="animatedBanner4" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
+            </div>
+          </div>
+        </div>
 <!-- Colocar hasta aqui imagen repetida del primer banner -->        
           </div>
         </div>
 
+	
+		 <div class="carousel-item " >
+<!-- Colocar desde aqui texto repetido del banner anterior -->
+          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;   background-color:#808285;">
+              <div class="" style="background-color: #ffa400">
+                <div class="desapareceTexto" style="transform: translateY(-15%);"  >
+                
+                     <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Empaque</h1>
+                <p class="tamanoTextoProducto3">Importadores Directos</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #808285" >+ VER MAS</a></p>
+            
+                </div>
+              </div>
+            </div>
+  <!-- Colocar hasta aqui texto repetido del banner anterior -->    
 
+          <div class="anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden; background-color:transparent;"> <!-- background transparente para dejar ver el texto anterior -->  
+            <div class="animatedBanner3" style="background-color:#7db700">
+              <div class="textoInterior" style="transform: translateY(-15%);"  >
+                
+                <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Limpieza Higiene</h1>
+                <p class="tamanoTextoProducto3">Soluciones Integrales</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #7db700" >+ VER MAS</a></p>
+                
+              </div>
+               </div>
+          </div>
+          
+          
+          <div class="container">
+                      
+            <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  
+                  <div class="animatedBanner2" >
+                    
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.png" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_4A.png" >
+                
+            </div>
+          </div>
+        </div>
+ <!-- Colocar desde aqui imagen repetida del primer banner -->  
+         <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  <div class="animatedBanner4" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.png" >
+            </div>
+          </div>
+        </div>
+<!-- Colocar hasta aqui imagen repetida del primer banner -->        
+          </div>
+        </div>
         
        
+		  
+		  <div class="carousel-item " >
+<!-- Colocar desde aqui texto repetido del banner anterior -->
+          <div class="anchoFranja" style="position: relative; top: 0%; left: 0%; overflow: hidden;   background-color:#7db700;">
+              <div class="" style="background-color: #ffa400">
+                <div class="desapareceTexto" style="transform: translateY(-15%);"  >
+                
+                     <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Limpieza Higiene</h1>
+                <p class="tamanoTextoProducto3">Soluciones Integrales</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #7db700" >+ VER MAS</a></p>
+            
+                </div>
+              </div>
+            </div>
+  <!-- Colocar hasta aqui texto repetido del banner anterior -->    
+
+          <div class="anchoFranja" style="position: relative; top: -100%; left: 0%; overflow: hidden; background-color:transparent;"> <!-- background transparente para dejar ver el texto anterior -->  
+            <div class="animatedBanner3" style="background-color:#9163a6">
+              <div class="textoInterior" style="transform: translateY(-15%);"  >
+                
+                <p class="tamanoTextoProducto2">Línea</p>
+                <h1 class="tamanoTextoProducto">Seguridad Industrial</h1>
+                <p class="tamanoTextoProducto3">Prevención de Riesgos</p>
+                <p class="margenBoton"><a class="jello-horizontal" style="color: #9163a6" >+ VER MAS</a></p>
+                
+              </div>
+               </div>
+          </div>
+          
+          
+          <div class="container">
+                      
+            <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  
+                  <div class="animatedBanner2" >
+                    
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.png" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_5A.png" >
+                
+            </div>
+          </div>
+        </div>
+ <!-- Colocar desde aqui imagen repetida del primer banner -->  
+         <div class="carousel-caption" >
+                <div class="innerBannerContainer">
+                  <div class="animatedBanner4" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.png" >
+            </div>
+          </div>
+        </div>
+<!-- Colocar hasta aqui imagen repetida del primer banner -->        
+          </div>
+        </div>
+		  
+		  
         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>

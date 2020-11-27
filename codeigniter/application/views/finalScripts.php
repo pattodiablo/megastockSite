@@ -17,16 +17,17 @@ $( document ).ready(function() {
   var firstActiveItem = $carousel.find('div.carousel-item.active');
   var franjaColor =  firstActiveItem.find('.colorBanner');
   var primeraImagen =  firstActiveItem.find('.animatedBanner4');
-
+  var primerBoton =  firstActiveItem.find('#firstBoton');
+	  $('#firstBoton').css("color", "#ffffff")
  
   $('#myCarousel').bind('slide.bs.carousel', function (e) {
 
-    franjaColor.css("background-color", "#527bbd")
+    franjaColor.css("background-color", "#9163a6")
     primeraImagen.css('visibility','visible')
     var carruselActiveItem = $carousel.find('div.carousel-item.active');
     var carruselText =  carruselActiveItem.find('.textoInteriorSinAnimacion');
     carruselText.addClass('desapareceTexto');
-  
+    $('#firstBoton').css("color", "#9163a6")
   });
 
 
