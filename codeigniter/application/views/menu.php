@@ -1,11 +1,11 @@
-<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:7%; font-size: 1.5rem;  ">	
+<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:4%; font-size: 1.5rem;  ">	
 			
 				<div class="col-1"></div>
 				<div class="col-3">
 					Acerca de Nosotros 
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
-						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="">Visítenos</a></li>
+						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="#">Visítenos</a></li>
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a></li>
 					</ul>
 				</div>
@@ -14,10 +14,10 @@
 					Productos
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/papelCarton">Línea Papel Cartón</a></li>
-						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="">Línea Chrysal</a></li>
-						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Limpieza.png"><a class="linkMenu" href="">Línea Empaque</a></li>
-						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Limpieza Higiene</a></li>
-						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Seguridad Industrial</a></li>
+						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/chrysal">Línea Chrysal</a></li>
+						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Empaque.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/empaque">Línea Empaque</a></li>
+						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/7_Linea_Limpieza.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/limpieza">Línea Limpieza Higiene</a></li>
+						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/8_Linea_SegInustrial.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/industrial">Línea Seguridad Industrial</a></li>
 					</ul>
 				</div>
 				
@@ -46,10 +46,10 @@
 				Productos
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
 						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/papelCarton">Línea Papel Cartón</a></li>
-						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="">Línea Chrysal</a></li>
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Limpieza.png"><a class="linkMenu" href="">Línea Empaque</a></li>
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Limpieza Higiene</a></li>
-						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="">Línea Seguridad Industrial</a></li>
+						<li style="margin-top: 1rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/chrysal">Línea Chrysal</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Empaque.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/empaque">Línea Empaque</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/7_Linea_Limpieza.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/limpieza">Línea Limpieza Higiene</a></li>
+						<li style="margin-top: 1rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/8_Linea_SegInustrial.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/industrial">Línea Seguridad Industrial</a></li>
 					</ul>
 				redes
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">

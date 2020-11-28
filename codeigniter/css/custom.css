@@ -232,6 +232,10 @@ input[type=text], input[type=button] {
 		display: inline-block;
 	}
 
+.hidden {
+   overflow: hidden;
+}
+
 .navegacionHead{
 		position: absolute; 
 		width: 100%;
@@ -330,6 +334,24 @@ input[type=text], input[type=button] {
 	font-weight: bold; 
 	text-align: center
 	
+}
+
+.chrysal{
+	border: 1px solid #0037a9;
+	color: #0037a9;
+	
+}
+.empaque{
+	border: 1px solid #323232; 
+	color: #323232;
+}
+.limpieza{
+	border: 1px solid #80bc00; 
+	color: #80bc00;
+}
+.industrial{
+	border: 1px solid #ba8cc6; 
+	color: #ba8cc6;
 }
 
 

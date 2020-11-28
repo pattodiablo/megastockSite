@@ -5,6 +5,12 @@
 <script src="<?php echo(base_url());?>/js/bootstrap.bundle.min.js"></script>
 <script src="<?php echo(base_url());?>/js/animtaeItems.js"></script>
 <script>
+	
+	$('.navbar-toggler').click(function(e){ //activar o desactivar scroll cuando se presiona el boton menu
+		$("body").toggleClass("hidden");
+		
+	});
+	
 
 $( document ).ready(function() {
   

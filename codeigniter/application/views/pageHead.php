@@ -12,6 +12,7 @@
     <title>Megastock</title>
 
     <!-- Bootstrap core CSS -->
+	<link href="<?php echo(base_url());?>css/normalize.css" rel="stylesheet">
 	<link href="<?php echo(base_url());?>css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo(base_url());?>css/custom.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">

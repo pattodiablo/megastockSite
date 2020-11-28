@@ -1,9 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-	
-  
-		
-
 </header>
 
 <main role="main" style="display:none;" id="myDiv">
@@ -317,9 +313,7 @@
 
   <div class="container-fluid marketing">
 			  
-	<!--  
-desde aqui seccion para mobile
---> 
+	<!-- desde aqui seccion para mobile --> 
 		<div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; padding-bottom: 3rem"> 
 			
 				<div class="col-12 seccion2" style="text-align: center;">
@@ -381,8 +375,8 @@ hasta aqui seccion para mobile
 <!--  
 desde aqui seccion para desktop
 --> 
-	  <div class="row" style="height: 3rem"></div>
-	   <div class="row desktopShow" style="background-color: #eaeaea;"> 
+	  <div style="clear: both"></div>
+	  <div class="row desktopShow" style="background-color: #eaeaea;"> 
 	  <div class="col-12">
 		  <div class="row productBanner show-on-scroll p-6 seccion2" > 
 		<div class="col-12">
@@ -474,6 +468,8 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	</div>
 
     </div>
+	  
+	  
 	  <div class="desktopShow">
 		<div class="row show-on-scroll"> 
 			<div class="col-4 nopadding">
