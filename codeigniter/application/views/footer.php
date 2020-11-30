@@ -14,27 +14,27 @@
 		<div class="col-3" >
 			<p style="font-size: 0.9rem; font-weight: bold">CONTACTO</p>
 			<p style="font-size: 1rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/telfIcon.png">PBX: (02) 382 9070</p> 
-			<p style="font-size: 1rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png">PBX: comercial@megaecuador.com</p>  
+			<p style="font-size: 1rem"><img width="10%" style="margin-right: 1rem" src="<?php echo(base_url());?>images/email.png"><a class="footerLink" href="mailto:comercial@megaecuador.com">comercial@megaecuador.com</a></p>  
 		</div>
 		
 		<div class="col-3" >
 			<div style="padding-left: 2rem" style="background-color: aqua;">
 				<p style="font-size: 0.9rem; font-weight: bold">ACERCA DE NOSOTROS</p>
 				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Quiénes Somos</a> </p> 
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Visítenos</a> </p> 
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Contáctenos</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/instagram">Visítenos</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a> </p> 
 			</div>
 		  </div>
 		
 		<div class="col-3" >
 			<div style="padding-left: 0.5rem">
 				<p style="font-size: 0.9rem; font-weight: bold">PRODUCTOS</p>
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Papel Cartón</a></p>
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Chrysal</a></p>
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Empaque</a></p> 
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Limpieza Higiene</a></p> 
-				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Línea Seguridad Industrial</a> </p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/papelCarton">Línea Papel Cartón</a></p>
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/chrysal">Línea Chrysal</a></p>
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/empaque">Línea Empaque</a></p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/limpieza">Línea Limpieza Higiene</a></p> 
+				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/industrial">Línea Seguridad Industrial</a> </p> 
 			</div>
 		  </div>
 		<div class="col-2"></div> 
@@ -46,9 +46,9 @@
 			<div class="col-4" style=" text-align: center">
 			
 				<ul style="list-style-type: none">
-					<li style="display: inline-block; margin-left: -7rem"><img width="30rem" src="<?php echo(base_url());?>images/FB.png"</li>
-					<li style="display: inline-block; padding-left: 5rem"><img width="30rem" src="<?php echo(base_url());?>images/Instagram.png"</li>
-					<li style="display: inline-block; padding-left: 5rem"><img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</li>
+					<li style="display: inline-block; margin-left: -7rem"><a href=""> <img width="30rem" src="<?php echo(base_url());?>images/FB.png"</a></li>
+					<li style="display: inline-block; padding-left: 5rem"><a href=""> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.png" </a></li>
+					<li style="display: inline-block; padding-left: 5rem"><a href=""> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.png"</a></li>
 				</ul>
 				
 			</div>
@@ -86,9 +86,9 @@
 				</ul>
 				SOCIAL MEDIA
 		  		<ul style="list-style-type: none; padding-top: 0rem">
-						<li style="margin-top: 0.5rem; display: inline-block; margin-left: -2.5rem"><a href=""><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
-						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
-						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href=""><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+						<li style="margin-top: 0.5rem; display: inline-block; margin-left: -2.5rem"><a href="facebook"><img style="width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href="instagram"><img style="width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
+						<li style="margin-top: 1rem; display: inline-block; padding-left: 0.6rem"><a href="whatsapp"><img style="width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
 				</ul>
 				
 			</div>

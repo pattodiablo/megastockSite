@@ -20,7 +20,7 @@
 							  <p class="tamanoTextoProducto2" >Línea</p>
 							  <h1 class="tamanoTextoProducto" >Seguridad Industrial</h1>
 							  <p class="tamanoTextoProducto3" >Prevención de Riesgos</p>
-							  <p class="margenBoton"><a id="firstBoton"  class="botonBlanco " href="">+ VER MÁS</a></p>
+							  <p class="margenBoton"><a id="firstBoton"  class="botonBlanco " href="<?php echo(base_url());?>index.php/industrial">+ VER MÁS</a></p>
 
 						  </div>
 						</div>
@@ -34,7 +34,7 @@
 								  <p class="tamanoTextoProducto2" >Línea</p>
 								  <h1  class="tamanoTextoProducto">Papel Cartón</h1>
 								  <p class="tamanoTextoProducto3" >Calidad de Producción</p>
-								  <p class="margenBoton"><a style="color: #ffa400 " class="botonBlanco" href="">+ VER MÁS</a></p>
+								  <p class="margenBoton"><a style="color: #ffa400 " class="botonBlanco" href="<?php echo(base_url());?>index.php/papelCarton">+ VER MÁS</a></p>
 
 					  </div>
 					   </div>
@@ -73,7 +73,7 @@
                     <p class="tamanoTextoProducto2">Línea</p>
                     <h1 class="tamanoTextoProducto">Papel Cartón</h1>
                     <p class="tamanoTextoProducto3">Calidad de Producción</p>
-                     <p class="margenBoton"><a style="color: #ffa400 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                     <p class="margenBoton"><a style="color: #ffa400 " class="botonBlanco" href="<?php echo(base_url());?>index.php/papelCarton">+ VER MÁS</a></p>
             
                 </div>
               </div>
@@ -87,7 +87,7 @@
                 <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Chrysal</h1>
                 <p class="tamanoTextoProducto3">Distribuidor en Ecuador</p>
-                 <p class="margenBoton"><a style="color: #527bbd " class="botonBlanco" href="">+ VER MÁS</a></p>
+                 <p class="margenBoton"><a style="color: #527bbd " class="botonBlanco" href="<?php echo(base_url());?>index.php/chrysal">+ VER MÁS</a></p>
                 
               </div>
                </div>
@@ -128,7 +128,7 @@
                      <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Chrysal</h1>
                 <p class="tamanoTextoProducto3">Distribuidor en Ecuador</p>
-                 <p class="margenBoton"><a style="color: #527bbd " class="botonBlanco" href="">+ VER MÁS</a></p>
+                 <p class="margenBoton"><a style="color: #527bbd " class="botonBlanco" href="<?php echo(base_url());?>index.php/chrysal">+ VER MÁS</a></p>
             
                 </div>
               </div>
@@ -142,7 +142,7 @@
                 <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Empaque</h1>
                 <p class="tamanoTextoProducto3">Importadores Directos</p>
-                 <p class="margenBoton"><a style="color: #808285 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                 <p class="margenBoton"><a style="color: #808285 " class="botonBlanco" href="<?php echo(base_url());?>index.php/empaque">+ VER MÁS</a></p>
                 
               </div>
                </div>
@@ -184,7 +184,7 @@
                      <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Empaque</h1>
                 <p class="tamanoTextoProducto3">Importadores Directos</p>
-                  <p class="margenBoton"><a  style="color: #808285 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                  <p class="margenBoton"><a  style="color: #808285 " class="botonBlanco" href="<?php echo(base_url());?>index.php/empaque">+ VER MÁS</a></p>
             
                 </div>
               </div>
@@ -198,7 +198,7 @@
                 <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Limpieza Higiene</h1>
                 <p class="tamanoTextoProducto3">Soluciones Integrales</p>
-                  <p class="margenBoton"><a  style="color: #7db700 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                  <p class="margenBoton"><a  style="color: #7db700 " class="botonBlanco" href="<?php echo(base_url());?>index.php/limpieza">+ VER MÁS</a></p>
                 
               </div>
                </div>
@@ -241,7 +241,7 @@
                      <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Limpieza Higiene</h1>
                 <p class="tamanoTextoProducto3">Soluciones Integrales</p>
-                  <p class="margenBoton"><a style="color: #7db700 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                  <p class="margenBoton"><a style="color: #7db700 " class="botonBlanco" href="<?php echo(base_url());?>index.php/limpieza">+ VER MÁS</a></p>
             
                 </div>
               </div>
@@ -255,7 +255,7 @@
                 <p class="tamanoTextoProducto2">Línea</p>
                 <h1 class="tamanoTextoProducto">Seguridad Industrial</h1>
                 <p class="tamanoTextoProducto3">Prevención de Riesgos</p>
-                  <p class="margenBoton"><a style="color: #9163a6 " class="botonBlanco" href="">+ VER MÁS</a></p>
+                  <p class="margenBoton"><a style="color: #9163a6 " class="botonBlanco" href="<?php echo(base_url());?>index.php/industrial">+ VER MÁS</a></p>
                 
               </div>
                </div>
@@ -426,17 +426,17 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  <div class="col-lg-2"></div>
 		<div class="col-lg-2">
 			
-			<a class="botonNaranja" href="">+ VER MÁS</a>
+			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/quienes">+ VER MÁS</a>
 		  </div>
 		<div class="col-lg-1"></div>
 		<div class="col-lg-2">
 		
-			<a class="botonNaranja" href="">+ VER MÁS</a>
+			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/instagram">+ VER MÁS</a>
 		</div>
 		<div class="col-lg-1"></div>
 		<div class="col-lg-2">
 			
-			<a class="botonNaranja" href="">+ VER MÁS</a>
+			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/contactenos">+ VER MÁS</a>
 		</div>
 		<div class="col-lg-2"></div>
 	  </div>
