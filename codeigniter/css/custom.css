@@ -67,8 +67,55 @@ body.is-visible{
     opacity: 1;
 }
 
+a.botonNaranja{
+	
+	background-color: #f37021;
+	text-align: center;
+	padding: 0.3rem;
+	
+	font-size: 1rem;
+	color: white;
+	 display: inline-block;
+    width: 100%;
+	
+}
+a.botonNaranja:hover{
+	background-color: #323232;
+}
 
+a.botonBlanco{
+	
+	background-color: #fff;
+	text-align: center;
+	padding: 0.3rem;
+	
+	font-size: 1rem;
+	
+	 display: inline-block;
+    width: 30%;
+	
+	
+}
+a.botonBlanco:hover{
+	background-color: #323232;
+	color: #fff;
+}
 
+.botonEnviarMail{
+	
+	width: 100%; 
+	background-color: #f37021; 
+	border: 0; 
+	color: white; 
+	padding: 0.3rem; 
+	margin-top: 2.5rem	
+	
+}
+.botonEnviarMail:hover{
+	background-color: #323232;
+	color: #fff;
+	
+}
 .carouselContainer{
     float: right;
     width: 100%;

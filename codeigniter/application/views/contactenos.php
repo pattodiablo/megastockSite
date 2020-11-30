@@ -76,7 +76,7 @@
 				  </ul>
 			</div>
 			<div class="form-group">
-				<button  name="enviar" id="enviar" value="enviar" type="submit" style="width: 100%; background-color: #f37021; border: 0; color: white; padding: 0.3rem; margin-top: 2.5rem">+ ENVIAR EMAIL</button>
+				<button  name="enviar" id="enviar" value="enviar" type="submit" class="botonEnviarMail" >+ ENVIAR EMAIL</button>
 			 </div>
 			  
 			  
