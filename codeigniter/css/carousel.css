@@ -316,23 +316,27 @@ body {
 	.animatedBanner4{
    
 	   left: 0%;
-	   top: 45%;
+	    top: 45%;
 
 
 	 }
 	
 .textoInterior{
 	
-		top: 55%;
-		left: 7%;
+		top: 54%;
+		left: 3%;
       
 	}
 	
 	.desapareceTexto{
-		top: 58%;
-		left: 7%;
+			top: 58%;
+		left: 3%;
 	
 
+	}
+	
+	.margenBoton{
+		margin-top: -2.5rem;
 	}
 	
 	.carousel-caption { 

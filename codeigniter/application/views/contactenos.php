@@ -12,12 +12,21 @@
 		<div class="col-md-1"></div>
 	</div>
 	
+	<div class="row" style="margin-top: 6rem">
+		<div class="col-1"></div>
+		<div class="col-10 text-center">
+			<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem"> Dónde estamos</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63837.06587827563!2d-78.20798931706965!3d0.052937344460910966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a096e2ba4c62d%3A0x545119c661b62209!2sMEGASTOCK%20ECUADOR!5e0!3m2!1ses!2sec!4v1606836789858!5m2!1ses!2sec" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<div class="col-1"></div>
+	</div>
+	
 	<div class="row show-on-scroll p-6 "> 
 			<div class="col-lg-4"></div>
 			<div class="col-lg-4" style="text-align: center">
 				<div style="height: 3rem"></div>
-				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Estamos</p>
-				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem">para Asesorarle</p>
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Estamos para</p>
+				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem"> Asesorarle</p>
 				<p style="color: #353535; font-size: 1.2rem; font-weight: 400; margin-top: 1.3rem">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
 				
 				<div style="height: 3rem"></div>

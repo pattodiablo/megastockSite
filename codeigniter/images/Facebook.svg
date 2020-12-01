@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 88 88" style="enable-background:new 0 0 88 88;" xml:space="preserve">
+	 viewBox="0 0 85 85" style="enable-background:new 0 0 85 85;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#CACACA;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:#CACACA;}
 </style>
 <g>
-	<path class="st0" d="M80.6,41.7c0,19.7-16,35.7-35.7,35.7S9.2,61.4,9.2,41.7S25.2,6,44.9,6C64.7,6,80.6,22,80.6,41.7z"/>
-	<path class="st1" d="M47.2,60.1H40V43h-4.8v-6.6h4.9V30c0-3.5,2.7-6.7,7.2-6.7h6.3v6.3h-4.3c-2,0-2,0.2-2,1.9v4.9h6.3L52.9,43h-5.7
-		V60.1L47.2,60.1z"/>
+	<path class="st0" d="M82.2,42.5c0,21.9-17.8,39.7-39.7,39.7S2.8,64.4,2.8,42.5S20.6,2.8,42.5,2.8C64.5,2.8,82.2,20.6,82.2,42.5z"/>
+	<path class="st1" d="M45.1,63h-8V44h-5.3v-7.3h5.4v-7.1c0-3.9,3-7.4,8-7.4h7v7h-4.8c-2.2,0-2.2,0.2-2.2,2.1v5.4h7L51.4,44h-6.3
+		L45.1,63L45.1,63z"/>
 </g>
 </svg>

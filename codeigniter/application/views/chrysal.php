@@ -32,7 +32,7 @@
 				<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/1B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/1A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >AVB INHIBIDOR DE ETILENO</p>
 				</div>
 			</div>
 			<div class="col-1"></div>
@@ -40,7 +40,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/2B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/2A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >AVB BOOSTER TRATAMIENTO HIDRATANTE</p>
 				</div>
 				</div>
 			<div class="col-1"></div>
@@ -48,7 +48,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/3B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/3A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >BATINE TRATAMIENTO ANTIMICROBIANO</p>
 				</div>
 				</div>
 			
@@ -62,7 +62,7 @@
 				<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/4B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/4A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >ETHYLENE BUSTER ANTI ETILENO</p>
 				</div>
 			</div>
 			<div class="col-1"></div>
@@ -70,7 +70,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/5B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/5A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >RVB TRATAMIENTO HIDRATANTE UNIVERSAL</p>
 				</div>
 				</div>
 			<div class="col-1"></div>
@@ -78,7 +78,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/6B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/6A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >DIP & WASH SURFACTANTE SILICONADO</p>
 				</div>
 				</div>
 			
@@ -92,7 +92,7 @@
 				<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/7B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/7A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >SVB TRATAMIENTO ANTI-AMARILLENTO</p>
 				</div>
 			</div>
 			<div class="col-1"></div>
@@ -100,7 +100,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/8B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/8A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >SOLUCIÓN INICIAL</p>
 				</div>
 				</div>
 			<div class="col-1"></div>
@@ -108,7 +108,7 @@
 					<div class="containter-fluid hoverImage" >
 					<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/9B.png">
 					<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/4LineaChrysal/Productos/9A.png">
-					<p class="productoDescripcion chrysal" >LÁMINA CORRUGADA BLANCA</p>
+					<p class="productoDescripcion chrysal" >COMIDAS FLORALES</p>
 				</div>
 				</div>
 			

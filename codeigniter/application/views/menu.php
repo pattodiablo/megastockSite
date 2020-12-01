@@ -12,7 +12,7 @@
 				<div class="col-1"></div>
 				<div class="col-4">
 					Productos
-					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 2rem">
+					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding: 0rem; padding-top: 2rem;">
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/4_Linea_Papel.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/papelCarton">Línea Papel Cartón</a></li>
 						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/5_Linea_Chrysal.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/chrysal">Línea Chrysal</a></li>
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/6_Linea_Empaque.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/empaque">Línea Empaque</a></li>
@@ -24,9 +24,9 @@
 				<div class="col-2">
 					
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 5rem">
-						<li style="margin-top: 2rem"><a href="<?php echo(base_url());?>index.php/fb"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/FB.png"></a></li>
-						<li style="margin-top: 2rem" ><a href="<?php echo(base_url());?>index.php/instagram"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.png"></a></li>
-						<li style="margin-top: 2rem"><a href="<?php echo(base_url());?>index.php/whatsaap"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.png"></a></li>
+						<li style="margin-top: 2rem"><a  class="facebookIcon" href="<?php echo(base_url());?>index.php/fb"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
+						<li style="margin-top: 2rem" ><a class="InstagramIcon"   href="<?php echo(base_url());?>index.php/instagram"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.svg"></a></li>
+						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="<?php echo(base_url());?>index.php/whatsaap"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 					</ul>
 				</div>
 				<div class="col-1"></div>

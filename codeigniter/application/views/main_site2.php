@@ -400,21 +400,21 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  <div class="row productBanner show-on-scroll p-6" style="margin-top: -6.5rem; ">
 	  <div class="col-lg-2"></div>
 		<div class="col-lg-2">
-			<img width="100%" src="<?php echo(base_url());?>images/1.png">
+			<img width="110%" src="<?php echo(base_url());?>images/1.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
 			
 		  </div>
 		<div class="col-lg-1"></div>
 		<div class="col-lg-2">
-			<img width="100%" src="<?php echo(base_url());?>images/2.png">
+			<img width="110%" src="<?php echo(base_url());?>images/2.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p> 
 			
 		</div>
 		<div class="col-lg-1"></div>
 		<div class="col-lg-2">
-			<img width="100%" src="<?php echo(base_url());?>images/3.png">
+			<img width="110%" src="<?php echo(base_url());?>images/3.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p> 
 			
