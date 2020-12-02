@@ -46,7 +46,7 @@ a:hover.svgHover{
 }
 
 a.facebookIcon {
-  background-image: url(..images/Facebook.svg);
+  
 }
 a:hover.facebookIcon:hover,
 a:hover.facebookIcon:focus {
@@ -54,7 +54,7 @@ a:hover.facebookIcon:focus {
 }
 
 a.InstagramIcon {
-  background-image: url(..images/Facebook.svg);
+ 
 }
 a:hover.InstagramIcon:hover,
 a:hover.InstagramIcon:focus {
@@ -62,7 +62,7 @@ a:hover.InstagramIcon:focus {
 }
 
 a.WhatsappIcon {
-  background-image: url(..images/Facebook.svg);
+ 
 }
 a:hover.WhatsappIcon:hover,
 a:hover.WhatsappIcon:focus {
@@ -537,6 +537,18 @@ input[type=text], input[type=button] {
 
 @media screen and (max-width: 640px) {
 	
+	.palabraProductos{
+		
+		color: white;
+		margin-right: 30%;
+		position: absolute;
+		left: -4rem;
+		top: 1.1rem;
+		display: inline;
+		visibility: visible;
+		
+	}
+	
 	.navegacionHead{
 		margin-left: 0rem;
 		
@@ -562,7 +574,7 @@ input[type=text], input[type=button] {
 		cursor: pointer; 
 		font-size: 1rem; 
 		position: absolute;
-		left: 20%;
+		left: 50%;
 		
 	}
 	
@@ -598,4 +610,19 @@ input[type=text], input[type=button] {
 	}
 
 }
+
+ .container-xl{
+		padding: 0px;
+		margin: 0px;
+        
+    }
+
+@media only screen and (min-width: 48rem){
+	 .container-xl{
+		margin: auto;
+        max-width: 1600px;
+    }
+	
+}
+   
 

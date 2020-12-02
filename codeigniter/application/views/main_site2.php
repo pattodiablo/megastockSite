@@ -3,8 +3,9 @@
 </header>
 
 <main role="main" style="display:none;" id="myDiv">
+	
 <div class="fill" >
-  
+  <div class="container-xl">
   <div class="carouselContainer" > 
 
     <div id="myCarousel" class="carousel carousel-fade" data-interval="10000" data-ride="carousel">
@@ -302,7 +303,7 @@
     
 
   </div>
-  
+  </div>
 </div>
 
 
@@ -317,10 +318,16 @@
 		<div class="row mobileShow show-on-scroll " style="background-color: #eaeaea; padding-bottom: 3rem"> 
 			
 				<div class="col-12 seccion2" style="text-align: center;">
-					<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
+					<div class="row">
+						<div class="col-3"></div>
+						<div class="col-6"><p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
 				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
 				<p style="color: white; font-size: 1rem;">Es nuestro principio brindarles nuestra mayor confianza y  
-experiencia en cada paso y desición que su empresa requiera.</p>
+experiencia en cada paso y desición que su empresa requiera.</p></div>
+						<div class="col-3"></div>
+					</div>
+					
+					
 				<div style="height: 8rem"></div>
 				</div>
 				

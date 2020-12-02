@@ -102,5 +102,7 @@
 		  <div class="col-4"></div>
 	  </div>
 	</footer>
+		
 		</main>
+
   </html>
