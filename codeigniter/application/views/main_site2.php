@@ -408,21 +408,21 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  <div class="col-2"></div>
 		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/1.png">
-			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
+			<p style="color: #f37021; font-size: 1.5rem; font-weight: normal; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: normal;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
 			
 		  </div>
 		<div class="col-1"></div>
 		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/2.png">
-			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
+			<p style="color: #f37021; font-size: 1.5rem; font-weight: normal; margin-top: 1.5rem; text-align: center">Visítenos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: normal;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p> 
 			
 		</div>
 		<div class="col-1"></div>
 		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/3.png">
-			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
+			<p style="color: #f37021; font-size: 1.5rem; font-weight: normal; margin-top: 1.5rem; text-align: center">Contáctenos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: normal;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p> 
 			
 		</div>
@@ -463,7 +463,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: normal; margin-top: 2.5rem">Somos el</p>
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem">Aliado Estratégico</p>
-				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: -1.7rem">de su Compañía</p>
+				<p style="color: #ffa400; font-size: 1.5rem; font-weight: normal; margin-top: -1.7rem">de su Compañía</p>
 				<p style=" font-size: 1.2rem; font-weight: normal;">Somos un socio indispensable dentro de su compañía, fielmente comprometido a enteder su negocio y lo que este precisa. </p>
 				<div style="height: 3rem"></div>
 			</div>
