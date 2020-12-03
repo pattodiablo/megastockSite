@@ -438,7 +438,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 		<div class="col-1"></div>
 		<div class="col-2">
 		
-			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/instagram">+ VER MÁS</a>
+			<a class="botonNaranja" href="https://www.instagram.com/megastock_megaecuador/">+ VER MÁS</a>
 		</div>
 		<div class="col-1"></div>
 		<div class="col-2">
