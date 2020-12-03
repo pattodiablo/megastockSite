@@ -5,7 +5,7 @@
 <main role="main" style="display:none;" id="myDiv">
 	
 <div class="fill" >
-  <div class="container-xl">
+  
   <div class="carouselContainer" > 
 
     <div id="myCarousel" class="carousel carousel-fade" data-interval="10000" data-ride="carousel">
@@ -303,7 +303,7 @@
     
 
   </div>
-  </div>
+
 </div>
 
 
@@ -319,12 +319,12 @@
 			
 				<div class="col-12 seccion2" style="text-align: center;">
 					<div class="row">
-						<div class="col-3"></div>
-						<div class="col-6"><p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
+						<div class="col-2 col-md-3"></div>
+						<div class="col-8 col-md-6"><p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
 				<p style="color: #f37021; font-size: 2.5rem; font-family: 'Playfair Display', serif; margin-top: -2rem">Asegura su éxito</p>
 				<p style="color: white; font-size: 1rem;">Es nuestro principio brindarles nuestra mayor confianza y  
 experiencia en cada paso y desición que su empresa requiera.</p></div>
-						<div class="col-3"></div>
+						<div class="col-2 col-md-3"></div>
 					</div>
 					
 					
@@ -405,47 +405,47 @@ experiencia en cada paso y desición que su empresa requiera.</p>
     </div>
 	  
 	  <div class="row productBanner show-on-scroll p-6" style="margin-top: -6.5rem; ">
-	  <div class="col-lg-2"></div>
-		<div class="col-lg-2">
+	  <div class="col-2"></div>
+		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/1.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
 			
 		  </div>
-		<div class="col-lg-1"></div>
-		<div class="col-lg-2">
+		<div class="col-1"></div>
+		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/2.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
-			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p> 
+			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: normal;">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p> 
 			
 		</div>
-		<div class="col-lg-1"></div>
-		<div class="col-lg-2">
+		<div class="col-1"></div>
+		<div class="col-2">
 			<img width="110%" src="<?php echo(base_url());?>images/3.png">
 			<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
 			<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; font-weight: bold;">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p> 
 			
 		</div>
-		<div class="col-lg-2"></div>
+		<div class="col-2"></div>
 	  </div>
 	  
 	   <div class="row productBanner show-on-scroll p-6" style="padding-bottom: 4rem;" >
-	  <div class="col-lg-2"></div>
-		<div class="col-lg-2">
+	  <div class="col-2"></div>
+		<div class="col-2">
 			
 			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/quienes">+ VER MÁS</a>
 		  </div>
-		<div class="col-lg-1"></div>
-		<div class="col-lg-2">
+		<div class="col-1"></div>
+		<div class="col-2">
 		
 			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/instagram">+ VER MÁS</a>
 		</div>
-		<div class="col-lg-1"></div>
-		<div class="col-lg-2">
+		<div class="col-1"></div>
+		<div class="col-2">
 			
 			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/contactenos">+ VER MÁS</a>
 		</div>
-		<div class="col-lg-2"></div>
+		<div class="col-2"></div>
 	  </div>
 	  
 		  </div>
@@ -529,14 +529,14 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  </div>
 	  
 	  <div class="row show-on-scroll " style="margin-top: 6rem"> 
-	  <div class="col-4 col-md-5 nopadding">
+	  <div class="col-2 col-md-5 nopadding">
 			
 		</div>
 		  
-		<div class="col-4 col-md-2 nopadding">
+		<div class="col-8 col-md-2 nopadding">
 			<a class="botonNaranja" href="">+ VER MÁS</a>
 		</div>
-		<div class="col-4 col-md-5 nopadding">
+		<div class="col-2 col-md-5 nopadding">
 			
 		</div>
 	  </div>

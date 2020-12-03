@@ -303,33 +303,37 @@ body {
 	
 	
 	}
+
+
+
+
 @media screen and (max-width: 640px) {
 	
 	.animatedBanner2{ /* imagen del banner*/ 
 		  
 		  position: relative;
 		  left: -100%;
-		  top: 50%;
+		  top: 45%;
 		
 		}	
 	
 	.animatedBanner4{
    
 	   left: 0%;
-	    top: 50%;
+	    top: 45%;
 
 
 	 }
 	
-.textoInterior{
+	.textoInterior{
 	
-		top: 64%;
+		top: 56%;
 		left: 3%;
       
 	}
 	
 	.desapareceTexto{
-			top: 67.5%;
+		top: 59%;
 		left: 3%;
 	
 
@@ -357,7 +361,7 @@ body {
 	
 	.textoInterior{
 	
-		top: 40%;
+		top: 20%;
 		left: -2%;
       
 	}
