@@ -408,27 +408,28 @@ input[type=text], input[type=button] {
 	border: 1px solid #ff9c39; 
 	padding: 1rem; color: #ff9c39; 
 	font-size: 0.8rem; 
-	font-weight: bold; 
-	text-align: center
+	font-weight: normal; 
+	text-align: center;
+	color: #F37021;
 	
 }
 
 .chrysal{
-	border: 1px solid #0037a9;
-	color: #0037a9;
+	border: 1px solid #6f9ed6;
+	color: #1e439b;
 	
 }
 .empaque{
-	border: 1px solid #323232; 
+	border: 1px solid #a1a1a1; 
 	color: #323232;
 }
 .limpieza{
-	border: 1px solid #80bc00; 
-	color: #80bc00;
+	border: 1px solid #9ac55e; 
+	color: #00853e;
 }
 .industrial{
 	border: 1px solid #ba8cc6; 
-	color: #ba8cc6;
+	color: #791188;
 }
 
 
