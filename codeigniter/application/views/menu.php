@@ -1,4 +1,4 @@
-<div class="row desktopShow" style="height: 100vh; color: white; font-weight:bold; padding-top:4%; font-size: 1.5rem;  ">	
+<div class="row desktopShow fade-in" style="height: 100vh; color: white; font-weight:bold; padding-top:4%; font-size: 1.5rem;  ">	
 			
 				<div class="col-1"></div>
 				<div class="col-3">
@@ -24,9 +24,9 @@
 				<div class="col-2">
 					
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 5rem">
-						<li style="margin-top: 2rem"><a  class="facebookIcon" href="<?php echo(base_url());?>index.php/fb"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
-						<li style="margin-top: 2rem" ><a class="InstagramIcon"   href="https://www.instagram.com/megastock_megaecuador/"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.svg"></a></li>
-						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://rb.gy/cecgoh"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+						<li style="margin-top: 2rem"><a  class="facebookIcon" href="https://www.facebook.com/megastockec" target="_blank"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
+						<li style="margin-top: 2rem" ><a class="InstagramIcon"   href="https://www.instagram.com/megastock_megaecuador/" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.svg"></a></li>
+						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://rb.gy/cecgoh" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 					</ul>
 				</div>
 				<div class="col-1"></div>

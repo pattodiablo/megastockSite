@@ -8,7 +8,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_Banner.png"></div>
+		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_Banner.png"></div>
 		<div class="col-md-1"></div>
 	</div>
 	
@@ -25,11 +25,11 @@
 			<div class="col-lg-4"></div>
 	</div>
 	
-	<div class="row show-on-scroll p-6" style="background-color: #ffa400; padding-top: 2rem; padding-bottom: 2rem;"> 
+	<div class="row desktopShow show-on-scroll p-6" style="background-color: #ffa400; padding-top: 2rem; padding-bottom: 2rem;"> 
 	
 		
 		
-		<div class="col-11" >
+		<div class="col-11 col-md-11 " >
 			
 			<div class="d-inline" style="float: left; width: 60%">
 				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png">
@@ -46,10 +46,26 @@
 		
 		
 		</div>
-		<div class="col-1"></div>
+		<div class="col-11 col-md-1"></div>
 		
 	</div>
-		
+	
+		<div class="row mobileShow show-on-scroll p-6" style="background-color: #ffa400; padding-top: 2rem; padding-bottom: 2rem;"> 
+			<div class="col-1"></div>
+			<div class="col-10">
+				
+				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png">
+			<div   style=" padding-top: 7%;  color: white; font-size: 1.2rem; text-align: justify; line-height: 2rem">
+				<p>Buscamos constantemente proporcionar valores agregados y extraordinarios a nuestros productos que garanticen un excelente servicio, calidad en lo que ofrecemos, costos competitivos, mejorando cada vez la liquidez para su empresa, y cumpliendo con sus expectativas. Este es nuestro compromiso hacia ustedes.</p>
+				<p>
+				<p style="font-size: 2rem; font-style: italic; font-weight: bold; text-align: right;  ">
+				nuestros clientes.	
+				</p>
+			</div>
+			</div>
+			<div class="col-1"></div>
+			
+		</div>
 </div>
 	
 	

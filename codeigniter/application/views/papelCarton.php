@@ -7,7 +7,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/3LineaPapelCarton/3_LineaPapel_Banner.png"></div>
+		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/3LineaPapelCarton/3_LineaPapel_Banner.png"></div>
 		<div class="col-md-1"></div>
 	</div>
 	

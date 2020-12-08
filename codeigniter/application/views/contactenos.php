@@ -8,7 +8,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/8Contactos/8_Contactos_Banner.png"></div>
+		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/8Contactos/8_Contactos_Banner.png"></div>
 		<div class="col-md-1"></div>
 	</div>
 	
@@ -38,8 +38,8 @@
 	
 	<div class="row show-on-scroll p-6" style="background-color: #eaeaea; padding-top: 7rem; padding-bottom: 7rem;"> 
 	
-		<div class="col-3"></div>
-		<div class="col-3 formulario" style="font-size: 1rem; color:crimson">
+		<div class="col-1 col-md-3"></div>
+		<div class="col-10 col-md-3 formulario" style="font-size: 1rem; color:crimson">
 			<?php echo validation_errors(); ?>
 			<?php echo form_open('contactenos'); ?>
 			  <div class="form-group">
@@ -93,35 +93,36 @@
 			  
 			</form>
 		</div>
-		<div class="col-1"></div>
-		<div class="col-3" >
-		<p style="font-size: 1.2rem; text-align: right; font-weight: bold">PBX: (02) 382 9070</p>
+		<div class="col-1 col-md-1"></div>
+	
+		<div class="col-10 col-md-3 contactosMobile" >
+		<p class="textAlignResponsive" style="font-size: 1.2rem; font-weight: bold">PBX: (02) 382 9070</p>
 			<div>
-			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: -0.5rem">• QUITO - CUMBAYÁ</p>
-			<p style="font-size: 1rem;  text-align: right; font-weight: bold; ">(593) 99 283 9949</p>
-			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">comercial@megaecuador.com</p>
+			<p  class="textAlignResponsive" style="color: #f37021;   font-size: 1rem; margin-top: -0.5rem">• QUITO - CUMBAYÁ</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   font-weight: bold; ">(593) 99 283 9949</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   margin-top: -1rem">comercial@megaecuador.com</p>
 			</div>
 			
 			<div>
-			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• TABACUNDO</p>
-			<p style="font-size: 1rem;  text-align: right; font-weight: bold">(593) 99 732 0974</p>
-			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventas@megaecuador.com</p>
+			<p  class="textAlignResponsive" style="color: #f37021;   font-size: 1rem; margin-top: 1rem">• TABACUNDO</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   font-weight: bold">(593) 99 732 0974</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   margin-top: -1rem">ventas@megaecuador.com</p>
 			</div>
 			
 			<div>
-			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• LASSO</p>
-			<p style="font-size: 1rem;  text-align: right; font-weight: bold ">(593) 99 162 1856</p>
-			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventassur@megaecuador.com</p>
+			<p  class="textAlignResponsive" style="color: #f37021;   font-size: 1rem; margin-top: 1rem">• LASSO</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   font-weight: bold ">(593) 99 162 1856</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   margin-top: -1rem">ventassur@megaecuador.com</p>
 			</div>
 			
 			<div>
-			<p style="color: #f37021;  text-align: right; font-size: 1rem; margin-top: 1rem">• GUAYAQUIL</p>
-			<p style="font-size: 1rem;  text-align: right; font-weight: bold">(593) 99 784 1049</p>
-			<p style="font-size: 1rem;  text-align: right; margin-top: -1rem">ventas3@megaecuador.com</p>
+			<p  class="textAlignResponsive" style="color: #f37021;   font-size: 1rem; margin-top: 1rem">• GUAYAQUIL</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   font-weight: bold">(593) 99 784 1049</p>
+			<p  class="textAlignResponsive" style="font-size: 1rem;   margin-top: -1rem">ventas3@megaecuador.com</p>
 			</div>
 			
 		</div>
-		<div class="col-2"></div>
+		<div class="col-1 col-md-2"></div>
 		
 	</div>
 		
