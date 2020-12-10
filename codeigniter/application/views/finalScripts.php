@@ -33,7 +33,7 @@ $( document ).ready(function() {
     var carruselActiveItem = $carousel.find('div.carousel-item.active');
     var carruselText =  carruselActiveItem.find('.textoInteriorSinAnimacion');
     carruselText.addClass('desapareceTexto');
-    $('#firstBoton').css("color", "#9163a6")
+    $('#firstBoton').css("color", "#9163a6");
   });
 
 
