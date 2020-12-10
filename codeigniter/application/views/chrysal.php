@@ -12,8 +12,8 @@
 	</div>
 	
 	<div class="row show-on-scroll p-6 "> 
-			<div class="col-lg-4"></div>
-			<div class="col-lg-4" style="text-align: center">
+			<div class="col-3"></div>
+			<div class="col-6" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #527bbd; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Línea</p>
 				<p style="color: #0037a9; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem">Chrysal</p>
@@ -21,7 +21,7 @@
 				
 				<div style="height: 3rem"></div>
 			</div>
-			<div class="col-lg-4"></div>
+			<div class="col-3"></div>
 	</div>
 	<div class="desktopShow">
 		<div class="row show-on-scroll p-6 "> 
