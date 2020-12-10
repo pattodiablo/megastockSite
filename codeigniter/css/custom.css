@@ -42,6 +42,17 @@ a:hover.linkMenu{
 	color: #f59530;
 }
 
+
+a.linkMenuMobile{
+	color: white;
+	font-size: 0.8rem;
+}
+
+a:hover.linkMenuMobile{
+	color: #f59530;
+}
+
+
 a.footerLink{
 	color: #c9c9c9;
 	font-size: 1rem;
@@ -200,6 +211,7 @@ input[type=text], input[type=button] {
 	width: 100%;
 	
 	overflow-x: hidden;
+	height: 120vh;
 }
 
 .productBanner{
@@ -660,10 +672,24 @@ input[type=text], input[type=button] {
 }
 
 
-@media screen and (min-height: 900px) and (orientation: portrait) {
+@media screen and (min-height: 768px) and (orientation: portrait) {
+	
+	.margenSuperiorIpad{
+		margin-top: 4rem;	
+	}
+	.soloIpad{
+		
+		margin-left: -2rem;
+	}
+	.container-xl{
+		padding: 0px;
+		margin: 0px;
+        
+	
+    }
 
 	.anchoFranja{
-		width: 60%;
+		width: 80%;
 		height: 100%;
 		
 		position: relative;
@@ -671,11 +697,7 @@ input[type=text], input[type=button] {
 
 }
 
- .container-xl{
-		padding: 0px;
-		margin: 0px;
-        
-    }
+ 
 
 @media only screen and (min-width: 48rem){
 	 .container-xl{

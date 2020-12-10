@@ -356,19 +356,19 @@ body {
 	
 }
 
-@media screen and (min-height: 900px) and (orientation: portrait) {
+@media screen and (min-height: 768px) and (orientation: portrait) {
   
 	
 	.textoInterior{
 	
-		top: 20%;
-		left: -2%;
+		top: 56%;
+		left: 3%;
       
 	}
 	
 	.desapareceTexto{
-		top: 40%;
-		left: -2%;
+		top: 59%;
+		left: 3%;
 	
 
 	}
@@ -381,21 +381,25 @@ body {
 }
 
 	.animatedBanner2{ /* imagen del banner*/ 
-    max-width: 100%;
-    position: relative;
-    left: -100%;
-    top: 25%;
-    height: 100%;
-   
-  
-  }
+		max-width: 100%;
+		position: relative;
+		left: -100%;
+		top: 15%;
+		height: 100%;
+   }
   
   .animatedBanner4{
     max-width: 100%;
      left: 0%;
-     top: 25%;
-  
-  
+     top: 15%;
+
    }
+	.innerBannerContainer{
+		position: absolute;
+		width: 100%;
+		left: -36%;
+		top: -10%;
+	}
+	
 
 }
