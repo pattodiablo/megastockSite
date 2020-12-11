@@ -13,8 +13,8 @@
 	</div>
 	
 	<div class="row show-on-scroll p-6 "> 
-			<div class="col-lg-4"></div>
-			<div class="col-lg-4" style="text-align: center">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Calidad que</p>
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem">Asegura su éxito</p>
@@ -22,7 +22,7 @@
 				
 				<div style="height: 3rem"></div>
 			</div>
-			<div class="col-lg-4"></div>
+			<div class="col-lg-3"></div>
 	</div>
 	
 	<div class="row desktopShow show-on-scroll p-6" style="background-color: #ffa400; padding-top: 2rem; padding-bottom: 2rem;"> 

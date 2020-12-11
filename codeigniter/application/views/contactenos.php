@@ -24,8 +24,8 @@
 	</div>
 	
 	<div class="row show-on-scroll p-6 "> 
-			<div class="col-lg-4"></div>
-			<div class="col-lg-4" style="text-align: center">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6" style="text-align: center">
 				<div style="height: 3rem"></div>
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 2.5rem">Estamos para</p>
 				<p style="color: #f37021; font-size: 3rem; font-family: 'Playfair Display', serif; margin-top: -1.7rem"> Asesorarle</p>
@@ -33,7 +33,7 @@
 				
 				<div style="height: 3rem"></div>
 			</div>
-			<div class="col-lg-4"></div>
+			<div class="col-lg-3"></div>
 	</div>
 	
 	<div class="row show-on-scroll p-6" style="background-color: #eaeaea; padding-top: 7rem; padding-bottom: 7rem;"> 
@@ -46,7 +46,7 @@
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
 				  	<li style="display:inline-block; color: #353535">Nombre<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input  name="nombre"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
+						<input  name="nombre"   style="-webkit-border-radius: 0%; -webkit-appearance: none; width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
@@ -54,7 +54,7 @@
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
 				  	<li style="display:inline-block;  color: #353535">Apellido<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%; float: right">
-						<input  name="apellido"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
+						<input  name="apellido"   style="-webkit-border-radius: 0%; -webkit-appearance: none; width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
@@ -63,7 +63,7 @@
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
 				  	<li style="display:inline-block;  color: #353535">Teléfono<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input  name="telefono"   style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
+						<input  name="telefono"   style="-webkit-border-radius: 0%; -webkit-appearance: none; width: 100%; background-color: #eaeaea; border:1px solid #353535" type="text"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			  </div>
@@ -72,7 +72,7 @@
 				  <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%">
 				  	<li style="display:inline-block;  color: #353535">Email<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
-						<input   name="email"  style="width: 100%; background-color: #eaeaea; border:1px solid #353535" type="email"  aria-describedby="emailHelp">
+						<input   name="email"  style="-webkit-border-radius: 0%; -webkit-appearance: none; width: 100%; background-color: #eaeaea; border:1px solid #353535" type="email"  aria-describedby="emailHelp">
 					</li>
 				  </ul>
 			</div>
@@ -82,7 +82,7 @@
 				  	<li style="display:inline-block;  color: #353535">Mensaje<p style="display: inline-block; color: #f37021">*</p></li>
 					<li style="display:inline-block; padding: 0; margin: 0; margin-left: 1rem; width: 74%;  float: right">
 						
-						<textarea  name="mensaje"  id="mensaje" rows="4"  style=" border:1px solid #353535; background-color: #eaeaea; width: 100%"></textarea>
+						<textarea  name="mensaje"  id="mensaje" rows="4"  style=" -webkit-border-radius: 0%; -webkit-appearance: none; border:1px solid #353535; background-color: #eaeaea; width: 100%"></textarea>
 					</li>
 				  </ul>
 			</div>

@@ -375,8 +375,9 @@ body {
 	
 	.carousel-caption {
 	  width: 70%;
-	  left: 40%; /*mover esto para mover imagen a derecha o izquierda segun se requiera */
-	  top: 25%;
+	
+	  left: 39%; /*mover esto para mover imagen a derecha o izquierda segun se requiera */
+	  top: 18%;
 	  padding-top: 0%;
 }
 
@@ -384,14 +385,15 @@ body {
 		max-width: 100%;
 		position: relative;
 		left: -100%;
-		top: 15%;
-		height: 100%;
+		top: 25%;
+		
    }
   
   .animatedBanner4{
     max-width: 100%;
      left: 0%;
-     top: 15%;
+     top: 25%;
+	  
 
    }
 	.innerBannerContainer{

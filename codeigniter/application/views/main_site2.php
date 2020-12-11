@@ -537,7 +537,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 		</div>
 		  
 		<div class="col-8 col-md-2 nopadding">
-			<a class="botonNaranja" href="">+ VER MÁS</a>
+			<a class="botonNaranja" href="<?php echo(base_url());?>index.php/quienes">+ VER MÁS</a>
 		</div>
 		<div class="col-2 col-md-5 nopadding">
 			

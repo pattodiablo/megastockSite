@@ -23,7 +23,7 @@
 				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a> </p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/">Visítenos</a> </p> 
-				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a> </p> 
+				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos" >Contáctenos</a> </p> 
 			</div>
 		  </div>
 		
@@ -46,9 +46,9 @@
 			<div class="col-4" style=" text-align: center">
 			
 				<ul style="list-style-type: none">
-					<li style="display: inline-block; margin-left: -7rem"><a class="facebookIcon"  href="https://www.facebook.com/megastockec"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
-					<li style="display: inline-block; padding-left: 5rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
-					<li style="display: inline-block; padding-left: 5rem"><a class="WhatsappIcon"  href="https://rb.gy/cecgoh"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+					<li style="display: inline-block; margin-left: -7rem"><a class="facebookIcon"  href="https://www.facebook.com/megastockec" target="_blank"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
+					<li style="display: inline-block; padding-left: 5rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/" target="_blank"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
+					<li style="display: inline-block; padding-left: 5rem"><a class="WhatsappIcon"  href="https://rb.gy/cecgoh" target="_blank"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 				</ul>
 				
 			</div>
@@ -125,9 +125,9 @@
 			<div class="col-8" style=" text-align: center">
 			
 				<ul style="list-style-type: none">
-					<li style="display: inline-block; text-align: center"><a class="facebookIcon"  href="https://www.facebook.com/megastockec"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
-					<li style="display: inline-block; padding-left: 3rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
-					<li style="display: inline-block; padding-left: 3rem"><a class="WhatsappIcon"  href="https://rb.gy/cecgoh"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+					<li style="display: inline-block; text-align: center"><a class="facebookIcon"  href="https://www.facebook.com/megastockec" target="_blank"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
+					<li style="display: inline-block; padding-left: 3rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/" target="_blank"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
+					<li style="display: inline-block; padding-left: 3rem"><a class="WhatsappIcon"  href="https://rb.gy/cecgoh" target="_blank"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 				</ul>
 				
 			</div>
