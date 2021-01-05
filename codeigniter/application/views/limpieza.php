@@ -109,7 +109,7 @@
 						<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/9B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/9A.png">
-						<p class="productoDescripcion limpieza" >GUANTES PVC 18”</p>
+						<p class="productoDescripcion limpieza" >DISPENSADORES</p>
 					</div>
 					</div>
 
@@ -243,7 +243,7 @@
 						<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/9B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/9A.png">
-						<p class="productoDescripcion limpieza" >GUANTES PVC 18”</p>
+						<p class="productoDescripcion limpieza" >DISPENSADORES</p>
 					</div>
 
 				</div>

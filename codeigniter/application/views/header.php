@@ -8,6 +8,7 @@ define('MP_DB_DEBUG', true);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Agrostock.com</title>
+
 <link href="<?php echo(base_url());?>css/main.css" rel="stylesheet" type="text/css" />
  <link rel="stylesheet" type="text/css" href="<?php echo(base_url());?>wt-rotator.css"/>
 	<script type="text/javascript" src="<?php echo(base_url());?>js/jquery-1.6.1.min.js"></script>

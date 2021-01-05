@@ -5,7 +5,7 @@
 					Acerca de Nosotros 
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding: 0rem; padding-top: 2rem">
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
-						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="https://www.instagram.com/megastock_megaecuador/">Visítenos</a></li>
+						<li style="margin-top: 2rem" ><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenu" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a></li>
 						<li style="margin-top: 2rem"><img style="margin-right: 1rem; width: 4rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenu" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a></li>
 					</ul>
 				</div>
@@ -27,7 +27,7 @@
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 5rem">
 						<li style="margin-top: 2rem"><a  class="facebookIcon" href="https://www.facebook.com/megastockec" target="_blank"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
 						<li style="margin-top: 2rem" ><a class="InstagramIcon"   href="https://www.instagram.com/megastock_megaecuador/" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.svg"></a></li>
-						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://rb.gy/cecgoh" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://bit.ly/38hbAkQ" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 					</ul>
 					
 				</div>
@@ -41,7 +41,7 @@
 				Acerca de Nosotros 
 					<ul style="font-weight: normal; list-style-type: none; padding-top: 0rem; padding-left: 0;">
 						<li style="margin-top: 0.7rem"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/1_Quienes_Somos.png"><a class="linkMenuMobile" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a></li>
-						<li style="margin-top: 0.7rem" ><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenuMobile" href="https://www.instagram.com/megastock_megaecuador/">Visítenos</a></li>
+						<li style="margin-top: 0.7rem" ><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/2_Visitenos.png"><a class="linkMenuMobile" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a></li>
 						<li style="margin-top: 0.7rem"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/3_Contactenos.png"><a class="linkMenuMobile" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a></li>
 					</ul>
 				
@@ -70,7 +70,7 @@
 						<ul style="list-style-type: none">
 							<li style="display: inline-block; margin-left: -2rem"><a class="facebookIcon"  href="https://www.facebook.com/megastockec"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
 							<li style="display: inline-block; padding-left: 2rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
-							<li style="display: inline-block; padding-left: 2rem"><a class="WhatsappIcon"  href="https://rb.gy/cecgoh"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+							<li style="display: inline-block; padding-left: 2rem"><a class="WhatsappIcon"  href="https://bit.ly/38hbAkQ"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 						</ul>
 
 					</div>

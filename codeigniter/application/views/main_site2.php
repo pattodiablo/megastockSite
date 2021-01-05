@@ -354,7 +354,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 				<img width="70%" src="<?php echo(base_url());?>images/2.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
 				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p>
-					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+					<p><a style="color: white" href="https://www.instagram.com/megastock_megaecuador/" target="_blank"><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
 			</div>
 			<div class="col-2 col-3"></div>
 			
@@ -442,7 +442,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 		<div class="col-1 col-lg-1"></div>
 		<div class="col-3 col-lg-2">
 		
-			<a class="botonNaranja" href="https://www.instagram.com/megastock_megaecuador/">+ VER MÁS</a>
+			<a class="botonNaranja" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">+ VER MÁS</a>
 		</div>
 		<div class="col-1 col-lg-1"></div>
 		<div class="col-3 col-lg-2">

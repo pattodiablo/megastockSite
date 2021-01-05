@@ -8,7 +8,7 @@
     <meta name="author" content="Weveana">
     <meta name="generator" content="Jekyll v4.1.1">
 
-    
+    	<link rel="icon" type="image/png" href="images/Icon_Megastock.png" sizes="16x16">
     <title>Megastock</title>
 
     <!-- Bootstrap core CSS -->
