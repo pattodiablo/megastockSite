@@ -22,7 +22,7 @@
 				<p style="font-size: 0.9rem; font-weight: bold">ACERCA DE NOSOTROS</p>
 				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a> </p> 
-				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/">Visítenos</a> </p> 
+				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a> </p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos" >Contáctenos</a> </p> 
 			</div>
 		  </div>
@@ -95,7 +95,7 @@
 				<p style="font-size: 0.9rem; font-weight: bold">ACERCA DE NOSOTROS</p>
 				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a> </p> 
-				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/">Visítenos</a> </p> 
+				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a> </p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos">Contáctenos</a> </p> 
 			
 			</div>
