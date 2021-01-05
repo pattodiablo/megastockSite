@@ -8,7 +8,7 @@
     <meta name="author" content="Weveana">
     <meta name="generator" content="Jekyll v4.1.1">
 
-    	<link rel="icon" type="image/svg+xml" href="<?php echo(base_url());?>images/icon.svg" sizes="16x16">
+    	<link rel="icon" type="image/svg+xml" href="<?php echo(base_url());?>images/icon.svg" sizes="any">
     <title>Megastock</title>
 
     <!-- Bootstrap core CSS -->
