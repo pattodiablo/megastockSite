@@ -64,7 +64,7 @@
 					<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4A.png">
-						<p class="productoDescripcion" >LÁMINA CORRUGADA CARTULINA</p>
+						<p class="productoDescripcion" >LÁMINA CORRUGADA CON DOBLEZ</p>
 					</div>
 				</div>
 				<div class="col-1"></div>

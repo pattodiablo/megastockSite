@@ -49,7 +49,7 @@
 						<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/3B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/3A.png">
-						<p class="productoDescripcion limpieza" >ECOLIMPIO</p>
+						<p class="productoDescripcion limpieza" >ALCOHOL ANTISÉPTICO</p>
 					</div>
 					</div>
 
@@ -63,7 +63,7 @@
 					<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/4B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/4A.png">
-						<p class="productoDescripcion limpieza" >ALCOHOL ANTIBACTERIAL</p>
+						<p class="productoDescripcion limpieza" >JABÓN LÍQUIDO</p>
 					</div>
 				</div>
 				<div class="col-1"></div>
@@ -79,7 +79,7 @@
 						<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/6B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/6A.png">
-						<p class="productoDescripcion limpieza" >PAPEL HIGIÉNICO Y TOALLAS DE PAPEL</p>
+						<p class="productoDescripcion limpieza" >PAPEL HIGIÉNICO </p>
 					</div>
 					</div>
 
@@ -93,7 +93,7 @@
 					<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/7B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/7A.png">
-						<p class="productoDescripcion limpieza" >BIOSOLUTIONS</p>
+						<p class="productoDescripcion limpieza" >TOALLAS DE PAPEL</p>
 					</div>
 				</div>
 				<div class="col-1"></div>
@@ -101,7 +101,7 @@
 						<div class="containter-fluid hoverImage" >
 						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/8B.png">
 						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/6LineaHigiene/Productos/8A.png">
-						<p class="productoDescripcion limpieza" >UNILIMPIO</p>
+						<p class="productoDescripcion limpieza" >DESINFECTANTE Y DETERGENTE</p>
 					</div>
 					</div>
 				<div class="col-1"></div>

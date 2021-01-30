@@ -27,7 +27,7 @@
 					<ul style="font-size: 1.3rem; font-weight: 300; list-style-type: none; padding-top: 5rem">
 						<li style="margin-top: 2rem"><a  class="facebookIcon" href="https://www.facebook.com/megastockec" target="_blank"><img style="margin-right: 1rem; width: 2rem"  src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
 						<li style="margin-top: 2rem" ><a class="InstagramIcon"   href="https://www.instagram.com/megastock_megaecuador/" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Instagram.svg"></a></li>
-						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://bit.ly/38hbAkQ" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+						<li style="margin-top: 2rem"><a  class="WhatsappIcon"  href="https://bit.ly/3adVRmh" target="_blank"><img style="margin-right: 1rem; width: 2rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 					</ul>
 					
 				</div>

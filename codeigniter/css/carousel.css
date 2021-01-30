@@ -130,8 +130,8 @@
 .desaparece{
 
   animation-name: desapareceTween;
-  animation-duration: 3s;
-  animation-delay: 6s;
+  animation-duration: 2s;
+  animation-delay: 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 
