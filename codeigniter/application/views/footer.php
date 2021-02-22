@@ -22,7 +22,7 @@
 				<p style="font-size: 0.9rem; font-weight: bold">ACERCA DE NOSOTROS</p>
 				<p><a class="footerLink" href="<?php echo(base_url());?>index.php/welcome">Inicio</a></p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/quienes">Quiénes Somos</a> </p> 
-				<p style="margin-top: -1rem"><a class="footerLink" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a> </p> 
+				<p style="margin-top: -1rem"><a target="_blank" class="footerLink"  href="https://www.instagram.com/megastock_megaecuador/" target="_blank">Visítenos</a> </p> 
 				<p style="margin-top: -1rem"><a class="footerLink" href="<?php echo(base_url());?>index.php/contactenos" >Contáctenos</a> </p> 
 			</div>
 		  </div>
@@ -121,8 +121,8 @@
 		
 			 <div class="row" style="border-top: 1px solid #6b6b6b; margin-top: 1rem "></div> 
 		<div class="row" style="background-color: #353535; padding-top: 1rem; padding-bottom: 1rem;">
-			<div class="col-2"></div>
-			<div class="col-8" style=" text-align: center">
+			<div class="col-1"></div>
+			<div class="col-10" style=" text-align: center">
 			
 				<ul style="list-style-type: none">
 					<li style="display: inline-block; text-align: center"><a class="facebookIcon"  href="https://www.facebook.com/megastockec" target="_blank"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
@@ -131,7 +131,7 @@
 				</ul>
 				
 			</div>
-			<div class="col-2"></div>
+			<div class="col-1"></div>
 		</div>
 	
 	<div class="row" style="border-top: 1px solid #6b6b6b; margin-top: 1rem "></div> 

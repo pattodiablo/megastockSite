@@ -37,7 +37,7 @@ class Contactos extends CI_Controller {
 		$this->email->initialize($config);
 		
 		$this->email->from($email , $nombre);
-		$this->email->to('patricio.leon@weveana.com'); 
+		$this->email->to('ventas@megaecuador.com'); 
 		//$this->email->cc('another@another-example.com'); 
 		//$this->email->bcc('them@their-example.com'); 		
 		$this->email->subject('contactenos Agrostock');

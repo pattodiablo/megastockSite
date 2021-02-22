@@ -7,7 +7,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/3LineaPapelCarton/3_LineaPapel_Banner.png"></div>
+		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/3LineaPapelCarton/3_LineaPapel_Banner.jpg"></div>
 		<div class="col-md-1"></div>
 	</div>
 	
@@ -32,24 +32,24 @@
 				<div class="col-1"></div>
 				<div class="col-3">
 					<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA BLANCA</p>
 					</div>
 				</div>
 				<div class="col-1"></div>
 					<div class="col-3" style="margin-left: -4.5%">
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA KRAFT</p>
 					</div>
 					</div>
 				<div class="col-1"></div>
 					<div class="col-3 "  style="margin-left: -4.5%">
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA IMPRESA</p>
 					</div>
 					</div>
@@ -62,24 +62,24 @@
 				<div class="col-1"></div>
 				<div class="col-3 ">
 					<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA CON DOBLEZ</p>
 					</div>
 				</div>
 				<div class="col-1"></div>
 					<div class="col-3 " style="margin-left: -4.5%">
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5A.jpg">
 						<p class="productoDescripcion" >SEPARADORES DE CARTÓN</p>
 					</div>
 					</div>
 				<div class="col-1"></div>
 					<div class="col-3 " style="margin-left: -4.5%" >
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6A.jpg">
 						<p class="productoDescripcion" >PAPEL BOND</p>
 					</div>
 					</div>
@@ -92,16 +92,16 @@
 				<div class="col-1"></div>
 				<div class="col-3">
 					<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7A.jpg">
 						<p class="productoDescripcion" >PAPEL SULFITO</p>
 					</div>
 				</div>
 				<div class="col-1"></div>
 					<div class="col-3 " style="margin-left: -4.5%">
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8A.jpg">
 						<p class="productoDescripcion" >RESMAS PAPEL PERIÓDICO</p>
 					</div>
 					</div>
@@ -122,8 +122,8 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-								<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1B.png">
-								<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1A.png">
+								<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1B.jpg">
+								<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/1A.jpg">
 								<p class="productoDescripcion" >LÁMINA CORRUGADA BLANCA</p>
 							</div>
 
@@ -136,8 +136,8 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/2A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA KRAFT</p>
 					</div>
 
@@ -150,8 +150,8 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/3A.jpg">
 						<p class="productoDescripcion" >LÁMINA CORRUGADA IMPRESA</p>
 					</div>
 
@@ -164,9 +164,9 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4A.png">
-						<p class="productoDescripcion" >LÁMINA CORRUGADA CARTULINA</p>
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/4A.jpg">
+						<p class="productoDescripcion" >LÁMINA CORRUGADA CON DOBLEZ</p>
 					</div>
 
 				</div>
@@ -178,8 +178,8 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/5A.jpg">
 						<p class="productoDescripcion" >SEPARADORES DE CARTÓN</p>
 					</div>
 
@@ -192,8 +192,8 @@
 				<div class="col-10">
 
 						<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/6A.jpg">
 						<p class="productoDescripcion" >PAPEL BOND</p>
 					</div>
 
@@ -206,8 +206,8 @@
 				<div class="col-10">
 
 							<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/7A.jpg">
 						<p class="productoDescripcion" >PAPEL SULFITO</p>
 					</div>
 
@@ -220,8 +220,8 @@
 				<div class="col-10">
 
 								<div class="containter-fluid hoverImage" >
-						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8B.png">
-						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8A.png">
+						<img class='hoverImage' style="position: relative; width: 100%"   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8B.jpg">
+						<img  style="position: absolute; width: 100%; top: 0%; left: 0%; padding: 15px; padding-top: 0rem; "   src="<?php echo(base_url());?>images/3LineaPapelCarton/Productos/8A.jpg">
 						<p class="productoDescripcion" >RESMAS PAPEL PERIÓDICO</p>
 					</div>
 

@@ -8,7 +8,7 @@
   
   <div class="carouselContainer" > 
 
-    <div id="myCarousel" class="carousel carousel-fade" data-interval="10000" data-ride="carousel">
+    <div id="myCarousel" class="carousel carousel-fade" data-interval="6500" data-ride="carousel">
       
       <div class="carousel-inner">
 
@@ -45,8 +45,8 @@
 						<div class="carousel-caption" >
 							<div class="innerBannerContainer">
 							  <div class="animatedBanner2" >
-								<img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.png" >
-							<img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_1A.png" >
+								<img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.jpg" >
+							<img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_1A.jpg" >
 
 						</div>
 					  </div>
@@ -56,7 +56,7 @@
 					<div class="carousel-caption" >
 					  <div class="innerBannerContainer">
 						<div class="animatedBanner4" style="visibility: hidden;" >
-						  <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.png" >
+						  <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.jpg" >
 				  </div>
 				</div>
 			  </div>
@@ -102,8 +102,8 @@
                   
                   <div class="animatedBanner2" >
                     
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_2A.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.jpg" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_2A.jpg" >
                 
             </div>
           </div>
@@ -112,7 +112,7 @@
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_1B.jpg" >
             </div>
           </div>
         </div>
@@ -157,8 +157,8 @@
                   
                   <div class="animatedBanner2" >
                     
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.png" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_3A.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.jpg" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_3A.jpg" >
                 
             </div>
           </div>
@@ -167,7 +167,7 @@
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_2B.jpg" >
             </div>
           </div>
         </div>
@@ -213,8 +213,8 @@
                   
                   <div class="animatedBanner2" >
                     
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.png" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_4A.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.jpg" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_4A.jpg" >
                 
             </div>
           </div>
@@ -223,7 +223,7 @@
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_3B.jpg" >
             </div>
           </div>
         </div>
@@ -270,8 +270,8 @@
                   
                   <div class="animatedBanner2" >
                     
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.png" >
-                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_5A.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_5B.jpg" >
+                <img class="desaparece" style="transform-origin: center center; width: 100%; transform: translateY(-150%); " src="<?php echo(base_url());?>images/Banner_5A.jpg" >
                 
             </div>
           </div>
@@ -280,7 +280,7 @@
          <div class="carousel-caption" >
                 <div class="innerBannerContainer">
                   <div class="animatedBanner4" >
-                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.png" >
+                    <img  style="transform-origin: center center; width: 100%; transform: translateY(-50%);" src="<?php echo(base_url());?>images/Banner_4B.jpg" >
             </div>
           </div>
         </div>
@@ -341,7 +341,8 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 				<img width="70%" src="<?php echo(base_url());?>images/1.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Quiénes Somos</p>
 				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Hemos buscado proporcionar valores agregados innovadores que garanticen mejores costos sin sacrificar la calidad y liquidez para su compañía cumpliendo con sus expectativas y favoreciendo a la vez  sus metas.</p>
-					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+				
+				<a class="botonNaranja" href="<?php echo(base_url());?>index.php/quienes">+ VER MÁS</a>
 			</div>
 			<div class="col-2 col-md-3"></div>
 			
@@ -354,7 +355,8 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 				<img width="70%" src="<?php echo(base_url());?>images/2.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Visítenos</p>
 				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Siempre pensando en ustedes, aquí encontrarán las mejores sugerencias y consejos sobre la variedad de productos y servicios que ofrecemos.</p>
-					<p><a style="color: white" href="https://www.instagram.com/megastock_megaecuador/" target="_blank"><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+				<a class="botonNaranja" href="https://www.instagram.com/megastock_megaecuador/" target="_blank">+ VER MÁS</a>
+
 			</div>
 			<div class="col-2 col-3"></div>
 			
@@ -367,7 +369,7 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 				<img width="70%" src="<?php echo(base_url());?>images/3.png">
 				<p style="color: #ffa400; font-size: 1.5rem; font-weight: bold; margin-top: 1.5rem; text-align: center">Contáctenos</p>
 				<p style="font-size: 1rem;  text-align: justify; text-justify: inter-word; ">Si desea más información a cerca de nuestros productos y servicios, no dude en contactarse con nosotros, que con gusto lo atenderemos.</p>
-					<p><a style="color: white" href=""><div style="background-color: #f37021; text-align: center; padding: 0.2rem; font-size: 1rem; color: white">+ VER MÁS</div></a></p>
+					<a class="botonNaranja" href="<?php echo(base_url());?>index.php/contactenos">+ VER MÁS</a>
 			</div>
 			<div class="col-2 col-md-3"></div>
 			
@@ -483,24 +485,24 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 	  <div class="desktopShow">
 		<div class="row show-on-scroll"> 
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/1.jpg">
 			</div>
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/2.jpg">
 			</div>
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/3.jpg">
 			</div>
 		</div>
 		  <div class="row show-on-scroll"> 
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/4.jpg">
 			</div>
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/5.jpg">
 			</div>
 			<div class="col-4 nopadding">
-				<img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png">
+				<img width="100%" src="<?php echo(base_url());?>images/seccion3/6.jpg">
 			</div>
 		</div>
 	  </div>
@@ -509,20 +511,20 @@ experiencia en cada paso y desición que su empresa requiera.</p>
 			
 				<div class="row show-on-scroll mobileShow" style="background-color: aqua">
 					
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/1.png"></div>
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/2.png"></div>	
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/1.jpg"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/2.jpg"></div>	
 		   		</div>
 	  
 	  			<div class="row show-on-scroll mobileShow" style="background-color: aqua">
 					
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/3.png"></div>
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/6.png"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/3.jpg"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/6.jpg"></div>
 		   		</div>
 
 	  			<div class="row show-on-scroll mobileShow" style="background-color: aqua">
 					
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/5.png"></div>
-						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/4.png"></div>	
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/5.jpg"></div>
+						<div class="col-6 nopadding"><img width="100%" src="<?php echo(base_url());?>images/seccion3/4.jpg"></div>	
 							
 		   		</div>
 

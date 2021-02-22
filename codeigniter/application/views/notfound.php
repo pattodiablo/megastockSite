@@ -9,7 +9,7 @@
 	<div class="row show-on-scroll" style="margin-top: 8rem; margin-bottom: 8rem;">
 		<div class="col-md-1"></div>
 		<div class="col-md-10" style="text-align: center" >
-			<img class="img-fluid"  src="<?php echo(base_url());?>images/notFound.png"></div>
+			<img class="img-fluid"  src="<?php echo(base_url());?>images/notfound.png"></div>
 		<div class="col-md-1"></div>
 	</div>
 	

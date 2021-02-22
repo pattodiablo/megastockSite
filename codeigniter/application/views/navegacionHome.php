@@ -16,7 +16,7 @@
 				 <div class="col-1 col-md-1"></div>
 				 <div class="col-3 col-md-8">
 
-					<a class="navbar-brand" href="welcome"><img style="width: 13rem; margin-left: -1rem" src="<?php echo(base_url());?>images/logo.svg"></a>
+					<a class="navbar-brand" href="#"><img style="width: 13rem; margin-left: -1rem" src="<?php echo(base_url());?>images/logo.svg"></a>
 
 
 				 </div>

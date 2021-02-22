@@ -8,7 +8,7 @@
 	
 	<div class="row show-on-scroll">
 		<div class="col-md-1"></div>
-		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_Banner.png"></div>
+		<div class="col-md-10 fade-in" style="margin-top: 6rem"><img class="img-fluid"  src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_Banner.jpg"></div>
 		<div class="col-md-1"></div>
 	</div>
 	
@@ -32,7 +32,7 @@
 		<div class="col-11 col-md-11 " >
 			
 			<div class="d-inline" style="float: left; width: 60%">
-				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png">
+				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.jpg">
 			</div>
 			
 			<div  class="d-inline" style=" padding-top: 7%; width: 40%; float: left; color: white; font-size: 1.2rem; text-align: justify; line-height: 2rem">
@@ -54,7 +54,7 @@
 			<div class="col-1"></div>
 			<div class="col-10">
 				
-				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.png">
+				<img class="img-fluid" src="<?php echo(base_url());?>images/7QuienesSomos/7_QuienesSomos_FotoLamina.jpg">
 			<div   style=" padding-top: 7%;  color: white; font-size: 1.2rem; text-align: justify; line-height: 2rem">
 				<p>Buscamos constantemente proporcionar valores agregados y extraordinarios a nuestros productos que garanticen un excelente servicio, calidad en lo que ofrecemos, costos competitivos, mejorando cada vez la liquidez para su empresa, y cumpliendo con sus expectativas. Este es nuestro compromiso hacia ustedes.</p>
 				<p>

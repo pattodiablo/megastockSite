@@ -1,3 +1,4 @@
+
 a:hover{
     text-decoration: none;
 }
@@ -129,11 +130,13 @@ a.botonNaranja{
 	color: white;
 	 display: inline-block;
     width: 100%;
-	
+	box-sizing: border-box;
 }
+
 a.botonNaranja:hover{
 	background-color: #323232;
 }
+
 
 a.botonBlanco{
 	
@@ -291,7 +294,14 @@ input[type=text], input[type=button] {
 	.bd-placeholder-img-lg {
 	  font-size: 3.5rem;
 	}
+	 
   }
+
+
+
+@media (hover: none) {
+ 
+}
 
 @keyframes entradaTexto {
 	

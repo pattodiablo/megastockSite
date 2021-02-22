@@ -68,9 +68,9 @@
 					<div class="col-8" style=" text-align: center">
 
 						<ul style="list-style-type: none">
-							<li style="display: inline-block; margin-left: -2rem"><a class="facebookIcon"  href="https://www.facebook.com/megastockec"> <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
-							<li style="display: inline-block; padding-left: 2rem"><a class="InstagramIcon"  href="https://www.instagram.com/megastock_megaecuador/"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
-							<li style="display: inline-block; padding-left: 2rem"><a class="WhatsappIcon"  href="https://bit.ly/38hbAkQ"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
+							<li style="display: inline-block; margin-left: -2rem"><a class="facebookIcon" target="_blank"  href="https://www.facebook.com/megastockec" > <img  width="30rem" src="<?php echo(base_url());?>images/Facebook.svg"></a></li>
+							<li style="display: inline-block; padding-left: 2rem"><a class="InstagramIcon" target="_blank" href="https://www.instagram.com/megastock_megaecuador/"> <img width="30rem" src="<?php echo(base_url());?>images/Instagram.svg"> </a></li>
+							<li style="display: inline-block; padding-left: 2rem"><a class="WhatsappIcon" target="_blank"  href="https://bit.ly/38hbAkQ"> <img width="30rem" src="<?php echo(base_url());?>images/Whatsapp.svg"></a></li>
 						</ul>
 
 					</div>

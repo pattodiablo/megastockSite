@@ -24,7 +24,7 @@ class Notfound extends CI_Controller {
 		$this->load->view('pageHead');
 		$this->load->view('navegacion');
 		$this->load->view('menu');
-		$this->load->view('notFound');
+		$this->load->view('notfound');
 		$this->load->view('footer');
 		$this->load->view('finalScripts');
 	}
