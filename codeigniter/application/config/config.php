@@ -26,8 +26,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /*  $config['base_url'] = 'http://megaecuador.com/megaecuador.com/web/codeigniter/'; */
 /*  $config['base_url'] = 'https://dell.x4/megastockSite/codeigniter/';  */
 
- $config['base_url'] = 'https://www.weveana.com/proyectos/megastockSite/codeigniter/';  
-/* $config['base_url'] = 'http://www.megaecuador.com/'; */
+ /* $config['base_url'] = 'https://www.weveana.com/proyectos/megastockSite/codeigniter/';  */ 
+ $config['base_url'] = 'http://www.megaecuador.com/'; 
 
 /*
 |--------------------------------------------------------------------------
